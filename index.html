@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <title>Matthew Matz</title>
+    <link rel="stylesheet" href="assets/index.css">
+
+    <script src="assets/index.js"></script>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <button class="material-symbols-outlined selected">home</button>
+                <span class="tooltiptext">Home</span>
+            </li>
+            <li>
+                <button class="material-symbols-outlined">work</button>
+                <span class="tooltiptext">Work</span>
+            </li>
+            <li>
+                <button class="material-symbols-outlined">article</button>
+                <span class="tooltiptext">Resumé</span>
+            </li>
+            <li>
+                <button class="material-symbols-outlined">mail</button>
+                <span class="tooltiptext">Contact</span>
+            </li>
+            <li>
+                <button class="material-symbols-outlined">chat_bubble</button>
+                <span class="tooltiptext">Socials</span>
+            </li>
+        </ul>
+    </nav>
+    <div class="nav-marker"></div>
+    <section>
+        <div class="center-box">
+            <div class="container home">
+                <div class="column left">
+                    <div class="home-card">
+                        <h1>Matthew Matz</h1>
+                        <h4>Product Engineer</h4>
+                        <h4>Educator</h4>
+                        <p>I'm love to create, tinker, build, and repair all kinds of things.  I'm an expert in school improvement and I'm a decent product engineer, too.  And yes, that is a picture of what my students think I look like ;)</p>
+                    </div>
+                </div>
+                <div class="column right">
+
+                    <img src="images/matt_clay.png" />
+                </div>
+            </div>
+
+            <div class="container work hidden">
+                <div class="column list">
+                    <h2>Projects &amp; Portfolio</h2>
+                    <ul>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('exercise-ui.html', false)">
+                            <img class="card" src="images/portfolio/exercise-ui/tablet_display_small.png" />
+                            <div class="card-description">
+                                <h4>Exercise Machine User Interface</h4>
+                                <p>This project uses an ESP32 to host an web page with a timer,
+                                    odometer, speedometer, heart rate monitor, track progress and selection, and
+                                    pedal resistance in an intuitive interface.</p>
+                            </div>
+                        </li>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('coming-soon.html', false)">
+                            <img class="card" src="images/portfolio/classic-joystick/joystick_small.png" />
+                            <div class="card-description">
+                                <h4>Upcycled Retro Joystick</h4>
+                                <p>This quick little project was a great way to upcycle a thrift-store find.</p>
+                            </div>
+                        </li>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('https:\/\/matzelectronics.github.io/taboo-for-three/', false)">
+                            <img class="card" src="images/portfolio/taboo-for-three/phone_screen_small.png" />
+                            <div class="card-description">
+                                <h4>Taboo for Three</h4>
+                                <p>A website you can use to make Taboo a three-player game.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="card" src="images/portfolio/piper-make/splash_small.png" />
+                            <div class="card-description">
+                                <h4>Piper Make</h4>
+                                <p>An entire product line for middle school STEM/STEAM classrooms to learn electronics and coding.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="card" src="images/portfolio/pc04/splash_small.png" />
+                            <div class="card-description">
+                                <h4>Piper Computer Kit v4</h4>
+                                <p>The newest revision of the Piper Computer Kit from Piper Learning.  Designed to be cost-eefective and keep or improve all of the features of the previous versions that made it an amazing STEM learning expereince.</p>
+                            </div>
+                        </li>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('https:\/\/github.com/MatzElectronics/uTerm', false)">
+                            <img class="card" src="images/portfolio/u-term/splash_small.png" />
+                            <div class="card-description">
+                                <h4>&micro;Term</h4>
+                                <p>A lightweight JavaScript library that allows you to add a terminal into a website.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="card" src="images/portfolio/garage-shelves/shelves_small.png" />
+                            <div class="card-description">
+                                <h4>Garage Shelves</h4>
+                                <p>Plans for garage or storage shelving that's large, easy to build, and relatively inexpensive.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="card" src="images/portfolio/usb-host-bridge/splash_small.png" />
+                            <div class="card-description">
+                                <h4>USB Host to UART Bridge Module</h4>
+                                <p>A simple way to connect a USB HID device like a keyboard or a mouse to nearly any microcontroller.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="card" src="images/portfolio/fan-light-controller/splash_small.png" />
+                            <div class="card-description">
+                                <h4>HomeAssistant Fan and Light Controller</h4>
+                                <p>A ESP8266- and ATTINY-based module that can be used with HomeAssistant to control a ceiling fan and lighting.</p>
+                            </div>
+                        </li>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('https:\/\/matzelectronics.github.io/QuestionSets/', false);">
+                            <img class="card" src="images/portfolio/question-sets/splash_small.png" />
+                            <div class="card-description">
+                                <h4>Question Sets</h4>
+                                <p>Virtual labs and online practice problems for middle and high school physical science and computer science.</p>
+                            </div>
+                        </li>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('https:\/\/matzelectronics.github.io/SpaceSims/examples/earth-moon.html?mode=eclipse', false);">
+                            <img class="card" src="images/portfolio/earth-moon-simulator/splash_small.png" />
+                            <div class="card-description">
+                                <h4>Earth-Moon System Simulator</h4>
+                                <p>A virtual lab simulation for helping students understand seasons, climate, eclipses, and lunar phases.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img class="card" src="images/portfolio/canvas-home-page-design/splash_small.png" />
+                            <div class="card-description">
+                                <h4>Canvas Home Page Template</h4>
+                                <p>A home page template for the Canvas LMS that makes it easy for students to navigate their online classes.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container resumé hidden">
+                <div class="column text">
+                    <h2>Resumé</h2>
+
+                    <h3>Education:</h3>
+
+                    <h4>Post-Master&apos;s: Professional Administrative Licensure</h4>
+                    <h5>Lewis and Clark University</h5>
+                    <h6>Portland, OR (2010 - 2013)</h6>
+                    <ul>
+                        <li>Culturally responsive leadership and community engagement.</li>
+                        <li>Human resource investigation, due process, and management.</li>
+                        <li>District budgeting, compliance, and contract negotiation.</li>
+                    </ul>
+
+                    <h4>Master of Education: School Leadership</h4>
+                    <h4>Post-Master&apos;s: Initial Administrative Licensure</h4>
+                    <h5>University of Portland</h5>
+                    <h6>Portland, OR (7/07)</h6>
+                    <ul>
+                        <li>Researched the effect of student groupings on learning.</li>
+                        <li>Program, curriculum, and intervention design and implementation.</li>
+                        <li>Leadership of school-wide initiatives.</li>
+                        <li>School finance, school law, and student civil rights.</li>
+                    </ul>
+
+                    <h4>Bachelor of Arts: Physics and Chemistry Education</h4>
+                    <h5>Concordia College</h5>
+                    <h6>Moorhead, MN (12/01)</h6>
+                    <ul>
+                        <li>Student manager responsible for providing sound services for campus events.</li>
+                        <li>Faculty Scholarship recipient.</li>
+                        <li>Studied schools and education systems abroad in Northern Europe.</li>
+                    </ul>
+
+                    <h3>Professional Experience:</h3>
+
+                    <h4>Product Designer, Software, and Hardware Engineer</h4>
+                    <h5>Piper Learning Inc.</h5>
+                    <h6>San Francisco, CA (8/19 - Present)</h6>
+                    <ul>
+                        <li>Designed or Redesigned every product in the company&apos;s catalog.</li>
+                        <li>Redesigned the company&apos;s flagship product to be substantially more cost-effective to
+                            manufacture while maximizing functionality and minimizing the changes to the overall
+                            appearance.</li>
+                        <li>Developed an entire second product line (Piper Make) based on a new Raspberry Pi
+                            microcontroller. This line provided a much-needed, reliable revenue stream when Rasperry Pi
+                            SBCs became hard to source during the pandemic. The line includes a starter kit and 10
+                            add-on kits with more in development.</li>
+                        <li>Developed a novel method for programming a microcontroller via a Chromium-based browser.
+                            This allowed the product to be used on nearly any desktop, laptop, or Chromebook computer
+                            without needing drivers or software installers. Although other companies and entities have
+                            now figured out how to do this, Piper was first-to-market with the technology.</li>
+                        <li>Developed protocol- and physically-compatible replacements for impossible-to-source sensor
+                            modules using ATTINY MCUs and discrete components. These modules were significantly more
+                            cost-effective and were much easier to keep in stock during the pandemic.</li>
+                        <li>Developed custom PCBA modules and sensors that integrated with the Piper Make product line.
+                        </li>
+                        <li>Designed and coded over 90% of the entire Piper Make website/UI (make.playpiper.com) from
+                            the low-level serial communication APIs to the graphics in the student-facing tutorials.
+                        </li>
+                        <li>Managed PCBA design, ordering, programming, and testing.</li>
+                        <li>Developed and built a robot to program and test full panels of sensor modules. The robot can
+                            process approximately 2000 sensor modules in a single day.</li>
+                    </ul>
+
+                    <h4>Engineering, Computer Science, and Science Teacher</h4>
+                    <h5>EDGE Middle School</h5>
+                    <h6>Salem, OR (8/20 - Present)</h6>
+                    <h4>Computer Science and Physical Science Teacher</h4>
+                    <h5>McKay High School</h5>
+                    <h6>Salem, OR (8/18 - 6/20)</h6>
+                    <ul>
+                        <li>Implemented a successful computer science program within the Engineering Program of Study in
+                            partnership with Microsoft TEALS.</li>
+                        <li>Worked with my 9th grade science team to improve our formative and summative assessments.
+                        </li>
+                        <li>Focused on inclusive practices and made sure that my classroom was a place of comfort and
+                            safety, especially for at-risk and differently-abled students.</li>
+                    </ul>
+
+                    <h4>Education Coordinator &amp; Software Developer</h4>
+                    <h5>Parallax Inc.</h5>
+                    <h6>Rocklin, CA (7/15 - 9/18)</h6>
+                    <ul>
+                        <li>Trained educators to use Parallax robotics and electronics platforms.</li>
+                        <li>Collaborated with state and county level decision-makers and contributed to ongoing STEM
+                            curriculum development efforts.</li>
+                        <li>Developed the front-end HTML/CSS/JavaScript/Node.js for the BlocklyProp graphical
+                            programming language (solo.parallax.com).</li>
+                        <li>Design and review circuits that students could build in their projects. This included
+                            designing for repeatability, robustness, and safety.</li>
+                        <li>Design hardware and mechanical components such as sensor platforms, propeller guards, cases
+                            for product demos, and servo-based actuators for STEM kits.</li>
+                        <li>Develop and maintain C-language libraries for various sensors and modules.</li>
+                        <li>Author and collaborate with guest authors to write tutorials, reference documentation, and
+                            product guides for STEM products and projects.</li>
+                    </ul>
+
+                    <h4>Principal</h4>
+                    <h5>Sam Boardman Elementary</h5>
+                    <h6>Boardman, OR (8/13 - 7/15)</h6>
+                    <h4>Assistant Principal</h4>
+                    <h5>Irrigon Jr./Sr. High</h5>
+                    <h6>Irrigon, OR (8/08 - 8/13)</h6>
+                    <ul>
+                        <li>Implemented a school-wide intervention program in reading and math.</li>
+                        <li>Reversed a 5 year decline in statewide assessment scores.</li>
+                        <li>Managed Title I and Title III grants and increased measured objectives from prior years.
+                        </li>
+                        <li>Re-established a welcome climate for students, parents, and staff.</li>
+                        <li>Managed student behavior and discipline. Developed and built software and used data-based
+                            decision making to reduce problem behaviors.</li>
+                        <li>Successfully managed a $30,000/year GEAR-UP grant, bringing technology, field-trips, and
+                            various opportunities to our school with the goal of all of our students attending college.
+                        </li>
+                        <li>Eliminated math classes that tracked students below grade-level.</li>
+                        <li>Designed master schedules with minimal conflicts, allowing more diverse learning
+                            opportunities for our students.</li>
+                    </ul>
+
+
+                    <h4>Physical Science Teacher</h4>
+                    <h5>Fremont Middle</h5>
+                    <h6>Roseburg, OR (8/03 - 6/08)</h6>
+
+                    <h4>Physics Teacher</h4>
+                    <h5>Mazama High</h5>
+                    <h6>Klamath Falls, OR (9/02 - 6/03)</h6>
+                    <ul>
+                        <li>Led my teaching team to implement portions of the Step Up to Writing Program outside of the
+                            language arts curriculum.</li>
+                        <li>Designed professional development and built consensus for a district-wide literacy program.
+                            This initiative precipitated our school's designation as an Oregon Model School.</li>
+                        <li>Taught math and study skills to students at high risk for dropping out.</li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+            <div class="container contact hidden">
+                <div class="column list">
+                    <h2>Contact</h2>
+                    <form action="https://mailthis.to/matz-webform" method="POST" encType="multipart/form-data">
+                        <div>
+                            <input type="text" name="name" placeholder="Your name">
+                            <input type="email" name="_replyto" placeholder="Your email">
+                        </div>
+                        <textarea name="message" placeholder="Enter your message here"></textarea>
+                        <!--<input type="file" name="file" placeholder="Attachments (optional)">-->
+                        <input type="hidden" name="_subject" value="Contact form submitted">
+                        <!--<input type="hidden" name="_after" value="://">-->
+                        <input type="hidden" name="_honeypot" value="">
+                        <input type="hidden" name="_confirmation" value="">
+                        <input type="submit" value="Send">
+                    </form>
+                </div>
+
+
+            </div>
+
+            <div class="container socials hidden">
+                <div class="column list">
+                    <h2>Social Media</h2>
+                    <ul>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('https:\/\/www.linkedin.com/in/matthew-matz/', true)">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="3 4 50 51">
+                                    <path fill="#555"
+                                        d="M28.35 5.16a24.63 24.63 0 1 0 0 49.25 24.63 24.63 0 0 0 0-49.25zm13.71 36.58a2 2 0 0 1-2.03 1.98H16.61a2 2 0 0 1-2.03-1.98V18.05a2 2 0 0 1 2.03-1.98h23.42a2 2 0 0 1 2.03 1.98v23.7z" />
+                                    <path fill="#555"
+                                        d="M33.1 26.44a4.12 4.12 0 0 0-3.74 2.06v.04h-.03a.22.22 0 0 0 .03-.04v-1.77H25.2c.05 1.17 0 12.49 0 12.49h4.15v-6.98c0-.37.03-.74.14-1 .3-.75.98-1.53 2.12-1.53 1.5 0 2.1 1.15 2.1 2.83v6.68h4.16v-7.16c0-3.84-2.05-5.62-4.78-5.62zm-12.24-5.73c-1.41 0-2.34.94-2.34 2.16 0 1.2.9 2.16 2.29 2.16h.03c1.44 0 2.34-.96 2.34-2.16-.02-1.22-.9-2.16-2.32-2.16zm-2.1 6.02h4.15v12.48h-4.15z" />
+                                </svg>
+                            </div>
+                            <div class="card-description">
+                                <h4>LinkedIn</h4>
+                            </div>
+                        </li>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('https:\/\/github.com/MatzElectronics', true)">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 512 512">
+                                    <path fill="#555" fill-rule="evenodd"
+                                        d="M296.13 354.17c49.89-5.89 102.94-24.03 102.94-110.19 0-24.49-8.62-44.45-22.67-59.87 2.27-5.89 9.52-28.11-2.73-58.94 0 0-18.14-5.9-60.76 22.66-18.14-4.98-38.09-8.16-56.68-8.16-19.05 0-39.01 3.18-56.7 8.16-43.08-28.56-61.22-22.66-61.22-22.66-12.24 30.83-4.98 53.05-2.72 58.94-14.06 15.42-22.67 35.38-22.67 59.87 0 86.17 53.05 104.3 102.94 110.2-6.34 5.45-12.24 15.87-14.5 30.38-12.7 5.44-45.82 15.87-65.77-18.6 0 0-11.79-21.3-34-22.66 0 0-22.23-.45-1.82 13.6 0 0 14.96 6.8 24.94 32.65 0 0 13.6 43.08 76.18 29.48v38.54c0 5.9-4.53 12.7-15.86 10.89C96.13 438.98 32.2 354.63 32.2 255.77c0-123.8 100.22-224.02 224.03-224.02 123.35 0 224.02 100.21 223.57 224.02 0 98.86-63.95 182.75-152.83 212.69-11.34 2.26-15.87-4.53-15.87-10.9v-62.11c0-20.87-6.81-34.46-14.97-41.28zM512 256.23C512 114.73 397.26 0 256.23 0 114.73 0 0 114.73 0 256.23 0 397.26 114.73 512 256.23 512 397.26 512 512 397.26 512 256.23z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="card-description">
+                                <h4>GitHub</h4>
+                            </div>
+                        </li>
+                        <li aria-roledescription="link" tabindex="0" onclick="linkTo('https:\/\/twitter.com/matzElectronics', true)">
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 32 32">
+                                    <path fill="#555"
+                                        d="M16 0a16 16 0 1 0 0 32 16 16 0 0 0 0-32zm8.44 10.86c-.07.12-.45.56-.86.95-.69.69-.72.76-.72 1.33 0 .88-.42 2.72-.84 3.73a10.8 10.8 0 0 1-4.1 4.82 10.36 10.36 0 0 1-8.05.92c-.87-.28-2.37-.97-2.37-1.1 0-.03.45-.08 1-.1a6.88 6.88 0 0 0 3.3-.92l.66-.4-.76-.25c-1.08-.38-2.05-1.23-2.3-2.04-.07-.26-.05-.28.64-.28h.71l-.6-.3a3.96 3.96 0 0 1-1.68-1.58 4.46 4.46 0 0 1-.44-1.67c.02-.03.28.04.57.14.85.31.96.24.47-.29a3.59 3.59 0 0 1-.76-3.67l.2-.6.82.8a9.98 9.98 0 0 0 5.84 2.89l.62.07-.04-.6a3.56 3.56 0 0 1 2.4-3.58 4.2 4.2 0 0 1 2.15-.05 5 5 0 0 1 1.04.54l.6.41.67-.2c.37-.12.86-.3 1.08-.43.2-.11.4-.17.4-.14 0 .21-.46.93-.84 1.33-.52.56-.37.61.67.24.63-.2.64-.2.52.03z" />
+                                </svg>
+                            </div>
+                            <div class="card-description">
+                                <h4>Twitter</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+        setupIndexPage();
+    </script>
+</body>
+
+</html>
