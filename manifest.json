@@ -1,0 +1,11 @@
+{
+    "name": "Matthew Matz",
+    "short_name": "Matthew Matz",
+    "icons": [{
+        "src": "favicon_lg.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "display": "fullscreen"
+}
