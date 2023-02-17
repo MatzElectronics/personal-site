@@ -10,13 +10,14 @@
     <link rel=”mask-icon” href=”favicon.svg” color=”#000000">
     <link rel="apple-touch-icon" href="favicon.png">
     <meta name="theme-color" content="#000000">
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
@@ -26,14 +27,18 @@
     <script src="assets/index.js"></script>
 
     <style>
-        code, pre {
+        code,
+        pre {
             font-family: 'Source Code Pro', monospace;
             font-size: 90%;
         }
     </style>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark-reasonable.min.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js" integrity="sha512-bgHRAiTjGrzHzLyKOnpFvaEpGzJet3z4tZnXGjpsCcqOnAH6VGUx9frc5bcIhKTVLEiCO6vEhNAgx5jtLUYrfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.7.0/build/styles/atom-one-dark-reasonable.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"
+        integrity="sha512-bgHRAiTjGrzHzLyKOnpFvaEpGzJet3z4tZnXGjpsCcqOnAH6VGUx9frc5bcIhKTVLEiCO6vEhNAgx5jtLUYrfA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -53,113 +58,203 @@
             <div class="container">
                 <div class="column text">
                     <h2>Exercise Machine UI</h2>
-                    <p>I admit it, I really need to improve my health and get in shape.  So why not attach that need to a project?  We've owned a few various weight and exercise machines over the years, and I don't think we purchased any of them new.  But buying used machines always came with a few downsides, and in nearly every case, the electronic controls for the machines never quite worked right.</p>
-                    <p>I'm actually really happy with how this project is turning out.  It's not done yet, but it's functional enough to get going, and I'm excited to share this project in the hopes it will be a both fun and helpful for others.</p>
+                    <p>I admit it, I really need to improve my health and get in shape. So why not attach that need to a
+                        project? We've owned a few various weight and exercise machines over the years, and I don't
+                        think we purchased any of them new. But buying used machines always came with a few downsides,
+                        and in nearly every case, the electronic controls for the machines never quite worked right.</p>
+                    <p>I'm actually really happy with how this project is turning out. It's not done yet, but it's
+                        functional enough to get going, and I'm excited to share this project in the hopes it will be
+                        both fun and helpful for others.</p>
 
                     <br>
                     <h3>The Electrical Bits Aren't Too Complicated</h3>
 
-                    <p>In the case of both our recumbant bike and our elliptical machine, there are only two things that need to be interfaced with:</p>
+                    <p>In the case of both our recumbent bike and our elliptical machine, there are only two things that
+                        need to be interfaced with:</p>
                     <ul>
                         <li>The "resistance" motor</li>
                         <li>The tachometer</li>
                     </ul>
                     <h4>The Resistance Motor</h4>
-                    <p>The resistance motor is usually a 5-wire device.  It's a geared motor that pulls on a cable that moves some magents closer or further from a flywheel.  When the magnets are close to the flywheel they generate <a href="https://www.youtube.com/watch?v=u7Rg0TcHQ4Y" target="_blank">eddy currents</a> in the flywheel, which makes it harder to turn.  That geared motor also drives a potentiometer so that the exercise machine knows where the resistance motor is at.</p>
-                    <img src="images/portfolio/exercise-ui/motor_example.png"/>
-                    <p>You could replace this part with a large enough hobby servo, and it would probably work really well.</p>
+                    <p>The resistance motor is usually a 5-wire device. It's a geared motor that pulls on a cable that
+                        moves some magnets closer or further from a flywheel. When the magnets are close to the flywheel
+                        they generate <a href="https://www.youtube.com/watch?v=u7Rg0TcHQ4Y" target="_blank">eddy
+                            currents</a> in the flywheel, which makes it harder to turn. That geared motor also drives a
+                        potentiometer so that the exercise machine knows where the resistance motor is at.</p>
+                    <img src="images/portfolio/exercise-ui/motor_example.png" />
+                    <p>You could replace this part with a large enough hobby servo, and it would probably work really
+                        well.</p>
+
                     <h4>The Tachometer</h4>
-                    <p>The tachometer is even simpler.  The pedals or flywheel has a magnet attached to it, and each time in spins around, it triggers a <a href="https://www.smlease.com/entries/automation/reed-switch-type-of-magnetic-sensor/" target="_blank">reed switch</a>.  The state of the reed switch can then be read by a microcontroller.  Each time the wheel turns, the reed switch is triggered.  The pulses that are generated can be measured to determine the speed the user is pedaling the machine at.</p>
+                    <p>The tachometer is even simpler. The pedals or flywheel have a magnet attached to it, and each
+                        time it spins around, it triggers a <a
+                            href="https://www.smlease.com/entries/automation/reed-switch-type-of-magnetic-sensor/"
+                            target="_blank">reed switch</a>. The state of the reed switch can then be read by a
+                        microcontroller. Each time the wheel turns, the reed switch is triggered. The pulses that are
+                        generated can be measured to determine the speed the user is pedaling the machine at.</p>
+
                     <h4>Interfacing the Electrical Bits</h4>
-                    <p>Here's what the connections (at least on my recumbant bike) look like.  Our eliptical connects the <b>Potentiometer &minus;</b> to one of the <b>Magent Sensor</b> (reed switch) wires.  This works because both are ultimately connected to ground anyway.</p>
-                    <img src="images/portfolio/exercise-ui/machine_connections.png"/>
+                    <p>Here's what the connections (at least on my recumbent bike) look like. Our elliptical connects
+                        the <b>Potentiometer &minus;</b> to one of the <b>Magnet Sensor</b> (reed switch) wires. This
+                        works because both are ultimately connected to ground anyway.</p>
+                    <img src="images/portfolio/exercise-ui/machine_connections.png" />
+
                     <h4>My Heart Rate</h4>
-                    <p>The recumbant bike machine also has metal hand-grips that can be used to measure your heart rate just like an EKG can.  I tried this out using a <a href="https://wiki.seeedstudio.com/Grove-EMG_Detector/" target="_blank">Grove EMG sensor module</a>, and it kind of worked, so I opted to at least try to build in that functionality as well, but with a chip that was designed more for that purpose - <a href="https://www.sparkfun.com/products/12650" target="_blank">the AD8232</a>.</p>
+                    <p>The recumbent bike machine also has metal hand-grips that can be used to measure your heart rate
+                        just like an EKG can. I tried this out using a <a
+                            href="https://wiki.seeedstudio.com/Grove-EMG_Detector/" target="_blank">Grove EMG sensor
+                            module</a>, and it kind of worked, so I opted to at least try to build in that functionality
+                        as well, but with a chip that was designed more for that purpose - <a
+                            href="https://www.sparkfun.com/products/12650" target="_blank">the AD8232</a>.</p>
                     <p></p>
 
                     <br>
                     <h3>Building an Electrical Interface</h3>
-
                     <p>I needed to build a circuit that would:</p>
                     <ul>
                         <li>Turn the motor forward or backward</li>
                         <li>Read the potentiometer</li>
                         <li>Detect the state of the reed switch</li>
-                        <li>Read my heart rate using in ECG chip</li>
+                        <li>Read my heart rate using an ECG chip</li>
                         <li>Take in 12V DC and regulate it down to power everything</li>
                         <li>Read the state of a few buttons</li>
-                        <li>A piezo buzzer</li>
+                        <li>Include a piezo buzzer</li>
                     </ul>
-
                     <h4>Selecting a Microcontroller</h4>
-                    <p>Before going any further, I also needed to decide which microcontroller to use for this project.  I'm most comfortable with classic Arduinos, the Parallax Propeller, and the Raspberry Pi Pico.  Any of these would have worked well - but I chose to use the ESP32 becausee I wanted most of the visual parts of the interface to be on a smartphone or tablet, and keep the code on the microcontroller simple and easy.</p>
-                    <p>I also chose the ESP32 because I've added a lot of ESP8266 and ESP32 modules into our Home Assistant setup, and the ESP32 modules are much, much more stable when connected to our home WiFi.</p>
-
+                    <p>Before going any further, I needed to decide which microcontroller to use for this project. I'm
+                        most comfortable with classic Arduinos, the Parallax Propeller, and the Raspberry Pi Pico. Any
+                        of these would have worked well - but I chose to use the ESP32 because I wanted most of the
+                        visual parts of the interface to be on a smartphone or tablet and keep the code on the
+                        microcontroller simple and easy.</p>
+                    <p>I also chose the ESP32 because I've added a lot of ESP8266 and ESP32 modules to our Home
+                        Assistant setup, and the ESP32 modules are much, much more stable when connected to our home
+                        WiFi.</p>
                     <h4>The Circuit</h4>
                     <h5>Power Supply</h5>
                     <p>Let's start with a simple, but very important part of the circuit: the power supply.</p>
-                    <p>I have a <b>TON</b> of 12V 0.5A wall-warts left over from a security camera installation I helped with a long time ago.</p>
-                    <img src="https://images.fineartamerica.com/images-medium-large-5/a-father-addresses-his-son-in-the-doorway-tom-cheney.jpg"/>
-                    <p>I decided to use an inexpensive <a href="https://www.amazon.com/gp/product/B07BK435ZW/" target="_blank">ESP32 module from Amazon</a>, and it needs to be powered at 5V.  A linear regulator would generate a fair amount of heat, so I oped to use a <a href="https://www.digikey.com/en/products/detail/mornsun-america-llc/K7805-500R3/13168189" target="_blank">switching regulator with a 7805-style pinout.</a>  I then chose to regulate that 5V output to 3.3V with an AMS1117 linear regulator</p>.
-                    <img src="images/portfolio/exercise-ui/sch_vreg.png"/>
-
+                    <p>I have a <b>TON</b> of 12V 0.5A wall-warts left over from a security camera installation I helped
+                        with a long time ago.</p>
+                    <img src="https://images.fineartamerica.com/images-medium-large-5/a-father-addresses-his-son-in-the-doorway-tom-cheney.jpg"
+                        alt="Image not found" />
+                    <p>I decided to use an inexpensive <a href="https://www.amazon.com/gp/product/B07BK435ZW/"
+                            target="_blank">ESP32 module from Amazon</a>, and it needs to be powered at 5V. A linear
+                        regulator would generate a fair amount of heat, so I opted to use a <a
+                            href="https://www.digikey.com/en/products/detail/mornsun-america-llc/K7805-500R3/13168189"
+                            target="_blank">switching regulator with a 7805-style pinout</a>. I then chose to regulate
+                        that 5V output to 3.3V with an AMS1117 linear regulator.</p>
+                    <img src="images/portfolio/exercise-ui/sch_vreg.png" alt="Image not found" />
                     <h5>Motor Driver, Piezo Buzzer, and Buttons</h5>
-                    <p>One of the most commom way to drive a motor is with an <a href="https://www.build-electronic-circuits.com/h-bridge/" target="_blank">H-bridge</a>, and an H-bridge-on-a-chip is easy enough to get, so I used a DRV8870.  It's easy to connect - just 2 logic inputs, a power input, and a direct connection to the motor. The chip is capable of current sensing, but I opted not to use it.</p>
-                    <p>I also added a piezo buzzer (with an included driver) and 4 buttons.  This allows me to give the user some feedback when they press a button, and the 4 buttons give me some flexibility, or even allow the interface to be used without a phone or tablet if necessary.</p>
-                    <img src="images/portfolio/exercise-ui/sch_buttons_buzzer_motor.png"/>
+                    <p>One of the most common ways to drive a motor is with an <a
+                            href="https://www.build-electronic-circuits.com/h-bridge/" target="_blank">H-bridge</a>, and
+                        an H-bridge-on-a-chip is easy enough to get, so I used a DRV8870. It's easy to connect - just 2
+                        logic inputs, a power input, and a direct connection to the motor. The chip is capable of
+                        current sensing, but I opted not to use it.</p>
+                    <p>I also added a piezo buzzer (with an included driver) and 4 buttons. This allows me to give the
+                        user some feedback when they press a button, and the 4 buttons give me some flexibility, or even
+                        allow the interface to be used without a phone or tablet if necessary.</p>
+                    <img src="images/portfolio/exercise-ui/sch_buttons_buzzer_motor.png" />
 
                     <h5>The Connections</h5>
-                    <p>There are a lot of connections on the board - both to the ESP32 module and to the exercise machine itself. The ESP32 has 20 pins.  Some pins are better than others for different functions.  The ESP32 has several ADC pins that work well for things like the potentiometer.  Additionally, it's helpful to break out the i<sup>2</sup>c pins, which allows for future expansion.</p>
-                    <img src="images/portfolio/exercise-ui/D1_mini_ESP32_pinout.webp"/>
-                    <img src="images/portfolio/exercise-ui/sch_esp_headers.png"/>
-                    <img src="images/portfolio/exercise-ui/sch_connections.png"/>
+                    <p>There are a lot of connections on the board - both to the ESP32 module and to the exercise
+                        machine itself. The ESP32 has 20 pins. Some pins are better than others for different functions.
+                        The ESP32 has several ADC pins that work well for things like the potentiometer. Additionally,
+                        it's helpful to break out the I<sup>2</sup>C pins, which allows for future expansion.</p>
+                    <img src="images/portfolio/exercise-ui/D1_mini_ESP32_pinout.webp">
+                    <img src="images/portfolio/exercise-ui/sch_esp_headers.png">
+                    <img src="images/portfolio/exercise-ui/sch_connections.png">
 
-
-                    <h5>The (Non-Functional) ECG</h5>      
-                    <p>This would have been the icing on the cake, but alas, it isn't working...yet.  I attempted to copy Sparkfun's open-source design for their AD8232 module.  It didn't work, and I haven't been able to fully troubleshoot the circuit.</p>
-                    <img src="images/portfolio/exercise-ui/sch_ecg.png"/>
+                    <h5>The (Non-Functional) ECG</h5>
+                    <p>This would have been the icing on the cake, but alas, it isn't working...yet. I attempted to copy
+                        Sparkfun's open-source design for their AD8232 module. It didn't work, and I haven't been able
+                        to fully troubleshoot the circuit.</p>
+                    <img src="images/portfolio/exercise-ui/sch_ecg.png">
 
                     <h4>Fabricating the Module</h4>
-                    <p>I've been using JLCPCB's PCB and SMT service for a few years now, and for the most part, I've been happy with the boards I get back.  Don't get me wrong, I have been using OSHPark and using an old kitchen skillet to reflow boards on my own, too, but my vision isn't getting any better as I get older ;)</p>
-                    <p>I probably should prototype a bit more than I do - the first boards I get back always need to be bodged in some way.  These were no exception.  The schematics above are actually corrected when compared to the order I originally placed.  I originally connected the motor driver IC to pins that shouldn't be used, and connected the buzzer to an NC (no connection) pin on the ESP32 module.  I forgot to ground the current sense pin on the motor driver IC, too.  And, like I stated before, the ECG part of the circuit isn't working, either.  The good news is that except for the ECG, the bodges aren't too difficulut.</p>  <p>Here's what the boards looked like when they came back from the fab:</p>
-                    <img src="images/portfolio/exercise-ui/pcb.png"/>
-                    <img src="images/portfolio/exercise-ui/board.png"/>
-                    <img src="images/portfolio/exercise-ui/board_and_esp.png"/>
+                    <p>I've been using JLCPCB's PCB and SMT service for a few years now, and for the most part, I've
+                        been happy with the boards I get back. Don't get me wrong, I have been using OSHPark and using
+                        an old kitchen skillet to reflow boards on my own, too, but my vision isn't getting any better
+                        as I get older ;)</p>
+                    <p>I probably should prototype a bit more than I do - the first boards I get back always need to be
+                        bodged in some way. These were no exception. The schematics above are actually corrected when
+                        compared to the order I originally placed. I originally connected the motor driver IC to pins
+                        that shouldn't be used, and connected the buzzer to an NC (no connection) pin on the ESP32
+                        module. I forgot to ground the current sense pin on the motor driver IC, too. And, like I stated
+                        before, the ECG part of the circuit isn't working, either. The good news is that except for the
+                        ECG, the bodges aren't too difficult.</p>
+                    <p>Here's what the boards looked like when they came back from the fab:</p>```
+
+                    <img src="images/portfolio/exercise-ui/pcb.png" />
+                    <img src="images/portfolio/exercise-ui/board.png" />
+                    <img src="images/portfolio/exercise-ui/board_and_esp.png" />
 
                     <br><br>
                     <h3>Building the Enclosure</h3>
-                    <h4>Material</h4>
-                    <p>Whenever I get a changce to go to the "big city", I always try to stop into <a href="https://www.tapplastics.com/" target="_blank">TAP plastics</a>.  They almost always have a bin of scrap maeretial that is inexpensive, and great for smaller projects like this. I've build up a decent collection of 2mm, 3mm, and 6mm clear acrylic plastic that I can use in the laser cutter.</p>
+                    <h4>Materials</h4>
+                    <p>Whenever I get a chance to go to the "big city," I always try to stop into <a
+                            href="https://www.tapplastics.com/" target="_blank">TAP plastics</a>. They almost always
+                        have a bin of scrap material that is inexpensive and great for smaller projects like this. I've
+                        built up a decent collection of 2mm, 3mm, and 6mm clear acrylic plastic that I can use in the
+                        laser cutter.</p>
                     <h4>Design</h4>
-                    <p>"When you are a hammer, every problem looks like a nail".  That's sort of true for how I approach using the laser to build things like enclosures.  Having worked for <a href="https://playpiper.com" target="_blank">Piper Learning</a>, I'm very comfortable with a sort of <em>tab and slot</em> method of construction, and this project was no exception.  The part is a fairly simple box.  The requirements for the enclosure were to:</p>
+                    <p>"When you are a hammer, every problem looks like a nail." That's sort of true for how I approach
+                        using the laser to build things like enclosures. Having worked for <a
+                            href="https://playpiper.com" target="_blank">Piper Learning</a>, I'm very comfortable with a
+                        sort of <em>tab and slot</em> method of construction, and this project was no exception. The
+                        part is a fairly simple box. The requirements for the enclosure were to:</p>
                     <ul>
                         <li>Be large enough to contain the electronics</li>
-                        <li>Bolt together with long through-bolts that tapped into the thick plastic sheet on the bottom</li>
+                        <li>Bolt together with long through-bolts that tapped into the thick plastic sheet on the bottom
+                        </li>
                         <li>Have vent holes because the ESP modules can generate a little heat</li>
                         <li>Have a sort of "ledge" to hold a phone or tablet</li>
-                        <li>Have mounting holes so that it can bolt onto the exercise machine in the same way as the old controls</li>
+                        <li>Have mounting holes so that it can bolt onto the exercise machine in the same way as the old
+                            controls</li>
                         <li>Have a way to mount the power switch</li>
                         <li>Have some way to push the buttons on the PCB</li>
                     </ul>
-                    <p>Here's what I cam up with.  The top, bottom, and shelf pieces are 6mm thick, and the sides are 3mm thick.</p>
-                    <img src="images/portfolio/exercise-ui/case_cad.png"/>
-                    <img src="images/portfolio/exercise-ui/assembled.png"/>
+                    <p>Here's what I came up with. The top, bottom, and shelf pieces are 6mm thick, and the sides are
+                        3mm thick.</p>
+                    <img src="images/portfolio/exercise-ui/case_cad.png" />
+                    <img src="images/portfolio/exercise-ui/assembled.png" />
 
                     <br><br>
                     <h3>Building the Web Page</h3>
                     <h4>Coming Up With a Design</h4>
-                    <p>I've noticed that whenever I have a plan for building something - even if that plan is as simple as a back-of=the-napkin sketch, things always go better.  I love building UIs, but sometimes I find myself lost in the weeds and obsessing over details.  To help keep me moving forward, I decided to make a plan for the UI, and that started with a sketch.  This is actually the final drawing.  There were several drafts before I got here:</p>
-                    <img src="images/portfolio/exercise-ui/ui_sketch.png"/>
+                    <p>I've noticed that whenever I have a plan for building something - even if that plan is as simple
+                        as a back-of-the-napkin sketch, things always go better. I love building UIs, but sometimes I
+                        find myself lost in the weeds and obsessing over details. To help keep me moving forward, I
+                        decided to make a plan for the UI, and that started with a sketch. This is actually the final
+                        drawing. There were several drafts before I got here:</p>
+                    <img src="images/portfolio/exercise-ui/ui_sketch.png" />
                     <h4>Translating the Sketch to HTML and CSS</h4>
-                    <p>I'm a big fan of <b>flex</b> layouts, but in this case, a <b>grid</b> layout seemed more appropriate.  Gird layouts are kind of a pain to set up, however.  The good news is that there is a pretty fantastic tool for getting the CSS and HTML set up for a grid written by <a href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a> available here: <a href="https://cssgrid-generator.netlify.app/" target="_blank">CSS Grid Generator</a>. Once I had the CSS and HTML for the grid, I pasted it into a boilerplate HTML page and continued building from there.</p>
-                    <img src="images/portfolio/exercise-ui/grid_layout_tool.png"/>
+                    <p>I'm a big fan of <b>flex</b> layouts, but in this case, a <b>grid</b> layout seemed more
+                        appropriate. Grid layouts are kind of a pain to set up, however. The good news is that there is
+                        a pretty fantastic tool for getting the CSS and HTML set up for a grid written by <a
+                            href="https://twitter.com/sarah_edo" target="_blank">Sarah Drasner</a> available here: <a
+                            href="https://cssgrid-generator.netlify.app/" target="_blank">CSS Grid Generator</a>. Once I
+                        had the CSS and HTML for the grid, I pasted it into a boilerplate HTML page and continued
+                        building from there.</p>
+                    <img src="images/portfolio/exercise-ui/grid_layout_tool.png" />
                     <h4>Making 3D Tracks</h4>
-                    <p>Another thing I've been working on at Piper is "gamifying" some of the Ed Tech products and tutorials we sell.  The approach we are exploring involves some #D worlds, so I've been working with a neat JS library called <a href="https://threejs.org/" target="_blank">Three.js</a>.  It's a deep rabbit hole you can fall into, and really fun to play with!</p>
-                    <p>I had the thought that if I could create some kind of a "track" that you are virtually on while riding the bike or using the elliptical, it would 1) be fun, and 2) provide some info about what resistance setting the machine should have, and vary it throughout the exercise session.  This let me to a kind of spline curve that can be defined with just a handful of points.</p>
-                    <p>One of the cool things about Three.js is that they provide a lot of tools, editors, and simulators, and the <a href="https://threejs.org/examples/webgl_geometry_spline_editor.html" target="_blank">catmull spline editor</a> looked like a really interesting way to create a track.</p>
-                    <img src="images/portfolio/exercise-ui/spline-editor.png"/>
-                    <p>Splines are just defined by a small number of points, so I created a few tracks, named them, and used a few more things from Three.js to build a visualizer.  It also worked well to measure the tangent slope along the curve to determine the resistance setting for the exercise machine as you ride around the track.  Three.js provides some nice functions that handle most of the trig for you, so it actually came together very quickly.</p>
-<pre><code class="language-javascript">
+                    <p>Another thing I've been working on at Piper is "gamifying" some of the Ed Tech products and
+                        tutorials we sell. The approach we are exploring involves some 3D worlds, so I've been working
+                        with a neat JS library called <a href="https://threejs.org/" target="_blank">Three.js</a>. It's
+                        a deep rabbit hole you can fall into, and really fun to play with!</p>
+                    <p>I had the thought that if I could create some kind of a "track" that you are virtually on while
+                        riding the bike or using the elliptical, it would 1) be fun, and 2) provide some info about what
+                        resistance setting the machine should have, and vary it throughout the exercise session. This
+                        led me to a kind of spline curve that can be defined with just a handful of points.</p>
+                    <p>One of the cool things about Three.js is that they provide a lot of tools, editors, and
+                        simulators, and the <a href="https://threejs.org/examples/webgl_geometry_spline_editor.html"
+                            target="_blank">catmull spline editor</a> looked like a really interesting way to create a
+                        track.</p>
+                    <img src="images/portfolio/exercise-ui/spline-editor.png" />
+                    <p>Splines are just defined by a small number of points, so I created a few tracks, named them, and
+                        used a few more things from Three.js to build a visualizer. It also worked well to measure the
+                        tangent slope along the curve to determine the resistance setting for the exercise machine as
+                        you ride around the track. Three.js provides some nice functions that handle most of the trig
+                        for you, so it actually came together very quickly.</p>
+                    <pre><code class="language-javascript">
 const tracks = [
     {
         name: "Gentle Ride",
@@ -217,19 +312,32 @@ const tracks = [
     }
 ];
 </code></pre>
-                    <p>There's more to it than that of course, and all of it is available in the <a href="https://github.com/MatzElectronics/exercise-machine-ui/blob/main/README.md" target="_blank">GitHub repo</a> for the project.</p><p>Once the web page was built, I combined the CSS, JavaScript, and HTML into a single file and added it into the ESP's <code>main.cpp</code> file as a rawliteral string so it can be served as a web page.</p>
-                    <p>To code on the ESP is still faily sloppy at this point.  It works, but it's not very clean.  For example, the feedback for the resistance motor would be better served by a PID instead of the low-pass filter I implmented.  I also used a lot of flags and countdown variables to "thread" a bunch of stuff in the single loop.  Interrupts would be a much cleaner way to make it work. And finally, adding an SD card would have allowed the HTML, JS, and CSS files to stay separate and be served from the SD card, which would keep the <code>main.cpp</code> file much shorter.</p>
+                    <p>There's more to it than that, of course, and all of it is available in the <a
+                            href="https://github.com/MatzElectronics/exercise-machine-ui/blob/main/README.md"
+                            target="_blank">GitHub repo</a> for the project.</p>
+                    <p>Once the web page was built, I combined the CSS, JavaScript, and HTML into a single file and
+                        added it into the ESP's <code>main.cpp</code> file as a raw literal string so it can be served
+                        as
+                        a web page.</p>
+                    <p>Coding on the ESP is still fairly sloppy at this point. It works, but it's not very clean. For
+                        example, the feedback for the resistance motor would be better served by a PID instead of the
+                        low-pass filter I implemented. I also used a lot of flags and countdown variables to "thread" a
+                        bunch of stuff in the single loop. Interrupts would be a much cleaner way to make it work. And
+                        finally, adding an SD card would have allowed the HTML, JS, and CSS files to stay separate and
+                        be served from the SD card, which would keep the <code>main.cpp</code> file much shorter.</p>
                     <h3>The Result</h3>
-                    <h4>It works quite well!</h4>  
+                    <h4>It works quite well!</h4>
                     <p>Here's a simulated screen:</p>
                     <img src="images/portfolio/exercise-ui/screen-example.gif">
-                    <p>Here's a picture on the machine:</p>
+                    <p>Here's a picture of the machine:</p>
                     <img src="images/portfolio/exercise-ui/tablet_display.png">
                 </div>
             </div>
         </div>
     </section>
-    <script>hljs.highlightAll();</script>
+    <script>
+        hljs.highlightAll();
+    </script>
 </body>
 
 </html>
