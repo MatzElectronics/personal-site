@@ -109,6 +109,18 @@ section {
     padding: 2rem;
 }
 
+.column.text h3,
+.column.text h4,
+.column.text h5 {
+    padding-top: 2rem;
+}
+
+.column.text>img,
+.column.text>pre,
+.column.text>iframe {
+    margin-bottom: 2rem;
+}
+
 .column.list>ul {
     margin: 0;
 }
