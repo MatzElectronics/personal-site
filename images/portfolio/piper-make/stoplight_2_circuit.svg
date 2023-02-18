@@ -1,0 +1,827 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 704.6 406">
+  <defs>
+    <path id="l" fill="#fff" d="M705 191.9h1.5v1.6H705z" opacity=".5"/>
+    <path id="k" fill="#ff3" d="M705 191l1.5.1v3.6H705z" opacity=".5"/>
+    <path id="j" fill="#fff" d="M700 192.4a4.1 4.1 0 001.4-.3 6.6 6.6 0 012.2-.3h3.2c.5 0 .5.6.5 1 0 .2 0 .7-.5.7l-6.8-.1a.5.5 0 01-.5-.5c0-.2.2-.5.5-.5z" opacity=".3"/>
+    <path id="i" d="M704.9 197.8h1.5l-.1 7-1.5-.1z" opacity=".4"/>
+    <path id="h" d="M708.5 199.2c0 .8-.3 1.5-.6 1.5h-4.3a18 18 0 01-2.9-.4h-.1a18 18 0 00-3-.4l-15.2-.2a18 18 0 00-2.9.2h-.1a17.5 17.5 0 01-3 .2h-3.6a1.5 1.5 0 00-1.5 1.3v1.3a1.4 1.4 0 001.4 1.4h3.6a9.6 9.6 0 003-.4 9.3 9.3 0 013-.6l15.2.3a9.6 9.6 0 013 .7 9.5 9.5 0 003 .6h4.9a1.5 1.5 0 001.6-1.3V196c-.5.3-1.4 1-1.5 3.2z" opacity=".3"/>
+    <path id="g" fill="#f07800" d="M680 191.1l-.7-.3h-.1a8.9 8.9 0 00-3-.7h-.2l-.3 15h.2a8.9 8.9 0 003-.7h.2a3.4 3.4 0 01.7-.2z"/>
+    <path id="f" fill="#f07800" d="M684 191.6h4.1l-.2 12.2-4.1-.1z"/>
+    <path id="e" fill="#893d00" d="M692.1 191.8h4.1L696 204h-4.1z"/>
+    <path id="d" fill="#ad9f4e" d="M705 190.6h1.5l-.2 15-1.5-.1z"/>
+    <path id="c" fill="#d9b477" d="M679.2 190.8a8.9 8.9 0 00-3-.7l-4.4-.1a1.6 1.6 0 00-1.6 1.5l-.3 11.8a1.6 1.6 0 001.6 1.6h4.4a8.9 8.9 0 003-.5h.2a8.8 8.8 0 013-.6l15.8.3a8.8 8.8 0 013 .7h.1a8.8 8.8 0 003 .7h4.4a1.6 1.6 0 001.6-1.5l.2-11.7a1.6 1.6 0 00-1.5-1.6l-4.4-.1a8.8 8.8 0 00-3 .6h-.2a8.8 8.8 0 01-3 .5l-15.8-.3a8.8 8.8 0 01-3-.6z"/>
+    <g id="b">
+      <rect width="10" height="9.5" x="54.2" y="64.6" fill="#bbb" ry=".7"/>
+      <path fill="#aaa" d="M54.9 64.6h8.6l-9.3 8.8v-8.2c0-.3.3-.6.7-.6z"/>
+    </g>
+    <linearGradient id="m" x1="-23.5" x2="-4.5" y1="1629.7" y2="1629.7" gradientTransform="translate(529.6 -255) scale(1.14489)" xlink:href="#a"/>
+    <linearGradient id="a" x1="-104.4" x2="-85.4" y1="1629.7" y2="1629.7" gradientTransform="translate(259.2 -1229.1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#333"/>
+      <stop offset="1" stop-color="#3c3c3c"/>
+    </linearGradient>
+  </defs>
+  <path fill="#e8cd91" d="M0 394V14C0 7 7.8-.2 20.6 0h702.7c9.7.2 18 6.1 17.8 14v380c-.1 6.9-7.6 12-17.8 12H20.6C10 405.9.2 401.6 0 394z"/>
+  <path fill="#f6dfa4" d="M5.5 392.1V16c0-7 7.7-14 20-13.9h689.8c9.7.2 17.8 6 17.7 13.9v376c-.3 6.8-7.7 12-17.7 11.9H25.7c-10.6-.1-20-4.3-20.2-11.9z"/>
+  <path fill="#f5f5f5" stroke="#aeaeae" stroke-width="2" d="M37.7 361.8V43.5h984.8v318.3z"/>
+  <path fill="#d3d3d3" d="M89.1 210v-14.3h881.7V210z" opacity=".5"/>
+  <path fill="none" stroke="#1497e3" stroke-width="3" d="M981.2 58.9l-903.9-.6" opacity=".6"/>
+  <path fill="none" stroke="#fe6e7f" stroke-width="3" d="M981.2 93.5l-903.9-.7" opacity=".6"/>
+  <path fill="none" stroke="#1497e3" stroke-width="3" d="M981.2 311.5l-903.9-.7" opacity=".6"/>
+  <path fill="none" stroke="#fe6e7f" stroke-width="3" d="M981.2 347.5l-903.9-.7" opacity=".6"/>
+  <g opacity=".4">
+    <use transform="translate(4.2 53)" xlink:href="#b"/>
+    <use transform="translate(4.2 68)" xlink:href="#b"/>
+    <use transform="translate(4.2 83)" xlink:href="#b"/>
+    <use transform="translate(4.2 98)" xlink:href="#b"/>
+    <use transform="translate(4.2 113)" xlink:href="#b"/>
+    <use transform="translate(4.2 155)" xlink:href="#b"/>
+    <use transform="translate(4.2 170)" xlink:href="#b"/>
+    <use transform="translate(4.2 185)" xlink:href="#b"/>
+    <use transform="translate(4.2 200)" xlink:href="#b"/>
+    <use transform="translate(4.2 215)" xlink:href="#b"/>
+    <use transform="translate(19.2 53)" xlink:href="#b"/>
+    <use transform="translate(19.2 68)" xlink:href="#b"/>
+    <use transform="translate(19.2 83)" xlink:href="#b"/>
+    <use transform="translate(19.2 98)" xlink:href="#b"/>
+    <use transform="translate(19.2 113)" xlink:href="#b"/>
+    <use transform="translate(19.2 155)" xlink:href="#b"/>
+    <use transform="translate(19.2 170)" xlink:href="#b"/>
+    <use transform="translate(19.2 185)" xlink:href="#b"/>
+    <use transform="translate(19.2 200)" xlink:href="#b"/>
+    <use transform="translate(19.2 215)" xlink:href="#b"/>
+    <use transform="translate(21.2 -1)" xlink:href="#b"/>
+    <use transform="translate(21.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(21.2 253)" xlink:href="#b"/>
+    <use transform="translate(21.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(34.2 53)" xlink:href="#b"/>
+    <use transform="translate(34.2 68)" xlink:href="#b"/>
+    <use transform="translate(34.2 83)" xlink:href="#b"/>
+    <use transform="translate(34.2 98)" xlink:href="#b"/>
+    <use transform="translate(34.2 113)" xlink:href="#b"/>
+    <use transform="translate(34.2 155)" xlink:href="#b"/>
+    <use transform="translate(34.2 170)" xlink:href="#b"/>
+    <use transform="translate(34.2 185)" xlink:href="#b"/>
+    <use transform="translate(34.2 200)" xlink:href="#b"/>
+    <use transform="translate(34.2 215)" xlink:href="#b"/>
+    <use transform="translate(36.2 -1)" xlink:href="#b"/>
+    <use transform="translate(36.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(36.2 253)" xlink:href="#b"/>
+    <use transform="translate(36.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(49.2 53)" xlink:href="#b"/>
+    <use transform="translate(49.2 68)" xlink:href="#b"/>
+    <use transform="translate(49.2 83)" xlink:href="#b"/>
+    <use transform="translate(49.2 98)" xlink:href="#b"/>
+    <use transform="translate(49.2 113)" xlink:href="#b"/>
+    <use transform="translate(49.2 155)" xlink:href="#b"/>
+    <use transform="translate(49.2 170)" xlink:href="#b"/>
+    <use transform="translate(49.2 185)" xlink:href="#b"/>
+    <use transform="translate(49.2 200)" xlink:href="#b"/>
+    <use transform="translate(49.2 215)" xlink:href="#b"/>
+    <use transform="translate(51.1 -1)" xlink:href="#b"/>
+    <use transform="translate(51.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(51.1 253)" xlink:href="#b"/>
+    <use transform="translate(51.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(64.2 53)" xlink:href="#b"/>
+    <use transform="translate(64.2 68)" xlink:href="#b"/>
+    <use transform="translate(64.2 83)" xlink:href="#b"/>
+    <use transform="translate(64.2 98)" xlink:href="#b"/>
+    <use transform="translate(64.2 113)" xlink:href="#b"/>
+    <use transform="translate(64.2 155)" xlink:href="#b"/>
+    <use transform="translate(64.2 170)" xlink:href="#b"/>
+    <use transform="translate(64.2 185)" xlink:href="#b"/>
+    <use transform="translate(64.2 200)" xlink:href="#b"/>
+    <use transform="translate(64.2 215)" xlink:href="#b"/>
+    <use transform="translate(66.1 -1)" xlink:href="#b"/>
+    <use transform="translate(66.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(66.1 253)" xlink:href="#b"/>
+    <use transform="translate(66.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(79.2 53)" xlink:href="#b"/>
+    <use transform="translate(79.2 68)" xlink:href="#b"/>
+    <use transform="translate(79.2 83)" xlink:href="#b"/>
+    <use transform="translate(79.2 98)" xlink:href="#b"/>
+    <use transform="translate(79.2 113)" xlink:href="#b"/>
+    <use transform="translate(79.2 155)" xlink:href="#b"/>
+    <use transform="translate(79.2 170)" xlink:href="#b"/>
+    <use transform="translate(79.2 185)" xlink:href="#b"/>
+    <use transform="translate(79.2 200)" xlink:href="#b"/>
+    <use transform="translate(79.2 215)" xlink:href="#b"/>
+    <use transform="translate(81.1 -1)" xlink:href="#b"/>
+    <use transform="translate(81.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(81.1 253)" xlink:href="#b"/>
+    <use transform="translate(81.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(94.2 53)" xlink:href="#b"/>
+    <use transform="translate(94.2 68)" xlink:href="#b"/>
+    <use transform="translate(94.2 83)" xlink:href="#b"/>
+    <use transform="translate(94.2 98)" xlink:href="#b"/>
+    <use transform="translate(94.2 113)" xlink:href="#b"/>
+    <use transform="translate(94.2 155)" xlink:href="#b"/>
+    <use transform="translate(94.2 170)" xlink:href="#b"/>
+    <use transform="translate(94.2 185)" xlink:href="#b"/>
+    <use transform="translate(94.2 200)" xlink:href="#b"/>
+    <use transform="translate(94.2 215)" xlink:href="#b"/>
+    <use transform="translate(109.2 53)" xlink:href="#b"/>
+    <use transform="translate(109.2 68)" xlink:href="#b"/>
+    <use transform="translate(109.2 83)" xlink:href="#b"/>
+    <use transform="translate(109.2 98)" xlink:href="#b"/>
+    <use transform="translate(109.2 113)" xlink:href="#b"/>
+    <use transform="translate(109.2 155)" xlink:href="#b"/>
+    <use transform="translate(109.2 170)" xlink:href="#b"/>
+    <use transform="translate(109.2 185)" xlink:href="#b"/>
+    <use transform="translate(109.2 200)" xlink:href="#b"/>
+    <use transform="translate(109.2 215)" xlink:href="#b"/>
+    <use transform="translate(113.2 -1)" xlink:href="#b"/>
+    <use transform="translate(113.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(113.2 253)" xlink:href="#b"/>
+    <use transform="translate(113.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(124.2 53)" xlink:href="#b"/>
+    <use transform="translate(124.2 68)" xlink:href="#b"/>
+    <use transform="translate(124.2 83)" xlink:href="#b"/>
+    <use transform="translate(124.2 98)" xlink:href="#b"/>
+    <use transform="translate(124.2 113)" xlink:href="#b"/>
+    <use transform="translate(124.2 155)" xlink:href="#b"/>
+    <use transform="translate(124.2 170)" xlink:href="#b"/>
+    <use transform="translate(124.2 185)" xlink:href="#b"/>
+    <use transform="translate(124.2 200)" xlink:href="#b"/>
+    <use transform="translate(124.2 215)" xlink:href="#b"/>
+    <use transform="translate(128.2 -1)" xlink:href="#b"/>
+    <use transform="translate(128.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(128.2 253)" xlink:href="#b"/>
+    <use transform="translate(128.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(139.2 53)" xlink:href="#b"/>
+    <use transform="translate(139.2 68)" xlink:href="#b"/>
+    <use transform="translate(139.2 83)" xlink:href="#b"/>
+    <use transform="translate(139.2 98)" xlink:href="#b"/>
+    <use transform="translate(139.2 113)" xlink:href="#b"/>
+    <use transform="translate(139.2 155)" xlink:href="#b"/>
+    <use transform="translate(139.2 170)" xlink:href="#b"/>
+    <use transform="translate(139.2 185)" xlink:href="#b"/>
+    <use transform="translate(139.2 200)" xlink:href="#b"/>
+    <use transform="translate(139.2 215)" xlink:href="#b"/>
+    <use transform="translate(143.1 -1)" xlink:href="#b"/>
+    <use transform="translate(143.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(143.1 253)" xlink:href="#b"/>
+    <use transform="translate(143.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(154.2 53)" xlink:href="#b"/>
+    <use transform="translate(154.2 68)" xlink:href="#b"/>
+    <use transform="translate(154.2 83)" xlink:href="#b"/>
+    <use transform="translate(154.2 98)" xlink:href="#b"/>
+    <use transform="translate(154.2 113)" xlink:href="#b"/>
+    <use transform="translate(154.2 155)" xlink:href="#b"/>
+    <use transform="translate(154.2 170)" xlink:href="#b"/>
+    <use transform="translate(154.2 185)" xlink:href="#b"/>
+    <use transform="translate(154.2 200)" xlink:href="#b"/>
+    <use transform="translate(154.2 215)" xlink:href="#b"/>
+    <use transform="translate(158.1 -1)" xlink:href="#b"/>
+    <use transform="translate(158.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(158.1 253)" xlink:href="#b"/>
+    <use transform="translate(158.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(169.2 53)" xlink:href="#b"/>
+    <use transform="translate(169.2 68)" xlink:href="#b"/>
+    <use transform="translate(169.2 83)" xlink:href="#b"/>
+    <use transform="translate(169.2 98)" xlink:href="#b"/>
+    <use transform="translate(169.2 113)" xlink:href="#b"/>
+    <use transform="translate(169.2 155)" xlink:href="#b"/>
+    <use transform="translate(169.2 170)" xlink:href="#b"/>
+    <use transform="translate(169.2 185)" xlink:href="#b"/>
+    <use transform="translate(169.2 200)" xlink:href="#b"/>
+    <use transform="translate(169.2 215)" xlink:href="#b"/>
+    <use transform="translate(173.1 -1)" xlink:href="#b"/>
+    <use transform="translate(173.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(173.1 253)" xlink:href="#b"/>
+    <use transform="translate(173.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(184.2 53)" xlink:href="#b"/>
+    <use transform="translate(184.2 68)" xlink:href="#b"/>
+    <use transform="translate(184.2 83)" xlink:href="#b"/>
+    <use transform="translate(184.2 98)" xlink:href="#b"/>
+    <use transform="translate(184.2 113)" xlink:href="#b"/>
+    <use transform="translate(184.2 155)" xlink:href="#b"/>
+    <use transform="translate(184.2 170)" xlink:href="#b"/>
+    <use transform="translate(184.2 185)" xlink:href="#b"/>
+    <use transform="translate(184.2 200)" xlink:href="#b"/>
+    <use transform="translate(184.2 215)" xlink:href="#b"/>
+    <use transform="translate(199.2 53)" xlink:href="#b"/>
+    <use transform="translate(199.2 68)" xlink:href="#b"/>
+    <use transform="translate(199.2 83)" xlink:href="#b"/>
+    <use transform="translate(199.2 98)" xlink:href="#b"/>
+    <use transform="translate(199.2 113)" xlink:href="#b"/>
+    <use transform="translate(199.2 155)" xlink:href="#b"/>
+    <use transform="translate(199.2 170)" xlink:href="#b"/>
+    <use transform="translate(199.2 185)" xlink:href="#b"/>
+    <use transform="translate(199.2 200)" xlink:href="#b"/>
+    <use transform="translate(199.2 215)" xlink:href="#b"/>
+    <use transform="translate(205.2 -1)" xlink:href="#b"/>
+    <use transform="translate(205.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(205.2 253)" xlink:href="#b"/>
+    <use transform="translate(205.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(214.2 53)" xlink:href="#b"/>
+    <use transform="translate(214.2 68)" xlink:href="#b"/>
+    <use transform="translate(214.2 83)" xlink:href="#b"/>
+    <use transform="translate(214.2 98)" xlink:href="#b"/>
+    <use transform="translate(214.2 113)" xlink:href="#b"/>
+    <use transform="translate(214.2 155)" xlink:href="#b"/>
+    <use transform="translate(214.2 170)" xlink:href="#b"/>
+    <use transform="translate(214.2 185)" xlink:href="#b"/>
+    <use transform="translate(214.2 200)" xlink:href="#b"/>
+    <use transform="translate(214.2 215)" xlink:href="#b"/>
+    <use transform="translate(220.2 -1)" xlink:href="#b"/>
+    <use transform="translate(220.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(220.2 253)" xlink:href="#b"/>
+    <use transform="translate(220.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(229.2 53)" xlink:href="#b"/>
+    <use transform="translate(229.2 68)" xlink:href="#b"/>
+    <use transform="translate(229.2 83)" xlink:href="#b"/>
+    <use transform="translate(229.2 98)" xlink:href="#b"/>
+    <use transform="translate(229.2 113)" xlink:href="#b"/>
+    <use transform="translate(229.2 155)" xlink:href="#b"/>
+    <use transform="translate(229.2 170)" xlink:href="#b"/>
+    <use transform="translate(229.2 185)" xlink:href="#b"/>
+    <use transform="translate(229.2 200)" xlink:href="#b"/>
+    <use transform="translate(229.2 215)" xlink:href="#b"/>
+    <use transform="translate(235.1 -1)" xlink:href="#b"/>
+    <use transform="translate(235.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(235.1 253)" xlink:href="#b"/>
+    <use transform="translate(235.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(244.2 53)" xlink:href="#b"/>
+    <use transform="translate(244.2 68)" xlink:href="#b"/>
+    <use transform="translate(244.2 83)" xlink:href="#b"/>
+    <use transform="translate(244.2 98)" xlink:href="#b"/>
+    <use transform="translate(244.2 113)" xlink:href="#b"/>
+    <use transform="translate(244.2 155)" xlink:href="#b"/>
+    <use transform="translate(244.2 170)" xlink:href="#b"/>
+    <use transform="translate(244.2 185)" xlink:href="#b"/>
+    <use transform="translate(244.2 200)" xlink:href="#b"/>
+    <use transform="translate(244.2 215)" xlink:href="#b"/>
+    <use transform="translate(250.1 -1)" xlink:href="#b"/>
+    <use transform="translate(250.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(250.1 253)" xlink:href="#b"/>
+    <use transform="translate(250.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(259.2 53)" xlink:href="#b"/>
+    <use transform="translate(259.2 68)" xlink:href="#b"/>
+    <use transform="translate(259.2 83)" xlink:href="#b"/>
+    <use transform="translate(259.2 98)" xlink:href="#b"/>
+    <use transform="translate(259.2 113)" xlink:href="#b"/>
+    <use transform="translate(259.2 155)" xlink:href="#b"/>
+    <use transform="translate(259.2 170)" xlink:href="#b"/>
+    <use transform="translate(259.2 185)" xlink:href="#b"/>
+    <use transform="translate(259.2 200)" xlink:href="#b"/>
+    <use transform="translate(259.2 215)" xlink:href="#b"/>
+    <use transform="translate(265.1 -1)" xlink:href="#b"/>
+    <use transform="translate(265.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(265.1 253)" xlink:href="#b"/>
+    <use transform="translate(265.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(274.2 53)" xlink:href="#b"/>
+    <use transform="translate(274.2 68)" xlink:href="#b"/>
+    <use transform="translate(274.2 83)" xlink:href="#b"/>
+    <use transform="translate(274.2 98)" xlink:href="#b"/>
+    <use transform="translate(274.2 113)" xlink:href="#b"/>
+    <use transform="translate(274.2 155)" xlink:href="#b"/>
+    <use transform="translate(274.2 170)" xlink:href="#b"/>
+    <use transform="translate(274.2 185)" xlink:href="#b"/>
+    <use transform="translate(274.2 200)" xlink:href="#b"/>
+    <use transform="translate(274.2 215)" xlink:href="#b"/>
+    <use transform="translate(289.2 53)" xlink:href="#b"/>
+    <use transform="translate(289.2 68)" xlink:href="#b"/>
+    <use transform="translate(289.2 83)" xlink:href="#b"/>
+    <use transform="translate(289.2 98)" xlink:href="#b"/>
+    <use transform="translate(289.2 113)" xlink:href="#b"/>
+    <use transform="translate(289.2 155)" xlink:href="#b"/>
+    <use transform="translate(289.2 170)" xlink:href="#b"/>
+    <use transform="translate(289.2 185)" xlink:href="#b"/>
+    <use transform="translate(289.2 200)" xlink:href="#b"/>
+    <use transform="translate(289.2 215)" xlink:href="#b"/>
+    <use transform="translate(297.2 -1)" xlink:href="#b"/>
+    <use transform="translate(297.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(297.2 253)" xlink:href="#b"/>
+    <use transform="translate(297.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(304.2 53)" xlink:href="#b"/>
+    <use transform="translate(304.2 68)" xlink:href="#b"/>
+    <use transform="translate(304.2 83)" xlink:href="#b"/>
+    <use transform="translate(304.2 98)" xlink:href="#b"/>
+    <use transform="translate(304.2 113)" xlink:href="#b"/>
+    <use transform="translate(304.2 155)" xlink:href="#b"/>
+    <use transform="translate(304.2 170)" xlink:href="#b"/>
+    <use transform="translate(304.2 185)" xlink:href="#b"/>
+    <use transform="translate(304.2 200)" xlink:href="#b"/>
+    <use transform="translate(304.2 215)" xlink:href="#b"/>
+    <use transform="translate(312.2 -1)" xlink:href="#b"/>
+    <use transform="translate(312.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(312.2 253)" xlink:href="#b"/>
+    <use transform="translate(312.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(319.2 53)" xlink:href="#b"/>
+    <use transform="translate(319.2 68)" xlink:href="#b"/>
+    <use transform="translate(319.2 83)" xlink:href="#b"/>
+    <use transform="translate(319.2 98)" xlink:href="#b"/>
+    <use transform="translate(319.2 113)" xlink:href="#b"/>
+    <use transform="translate(319.2 155)" xlink:href="#b"/>
+    <use transform="translate(319.2 170)" xlink:href="#b"/>
+    <use transform="translate(319.2 185)" xlink:href="#b"/>
+    <use transform="translate(319.2 200)" xlink:href="#b"/>
+    <use transform="translate(319.2 215)" xlink:href="#b"/>
+    <use transform="translate(327.1 -1)" xlink:href="#b"/>
+    <use transform="translate(327.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(327.1 253)" xlink:href="#b"/>
+    <use transform="translate(327.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(334.2 53)" xlink:href="#b"/>
+    <use transform="translate(334.2 68)" xlink:href="#b"/>
+    <use transform="translate(334.2 83)" xlink:href="#b"/>
+    <use transform="translate(334.2 98)" xlink:href="#b"/>
+    <use transform="translate(334.2 113)" xlink:href="#b"/>
+    <use transform="translate(334.2 155)" xlink:href="#b"/>
+    <use transform="translate(334.2 170)" xlink:href="#b"/>
+    <use transform="translate(334.2 185)" xlink:href="#b"/>
+    <use transform="translate(334.2 200)" xlink:href="#b"/>
+    <use transform="translate(334.2 215)" xlink:href="#b"/>
+    <use transform="translate(342.1 -1)" xlink:href="#b"/>
+    <use transform="translate(342.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(342.1 253)" xlink:href="#b"/>
+    <use transform="translate(342.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(349.2 53)" xlink:href="#b"/>
+    <use transform="translate(349.2 68)" xlink:href="#b"/>
+    <use transform="translate(349.2 83)" xlink:href="#b"/>
+    <use transform="translate(349.2 98)" xlink:href="#b"/>
+    <use transform="translate(349.2 113)" xlink:href="#b"/>
+    <use transform="translate(349.2 155)" xlink:href="#b"/>
+    <use transform="translate(349.2 170)" xlink:href="#b"/>
+    <use transform="translate(349.2 185)" xlink:href="#b"/>
+    <use transform="translate(349.2 200)" xlink:href="#b"/>
+    <use transform="translate(349.2 215)" xlink:href="#b"/>
+    <use transform="translate(357.1 -1)" xlink:href="#b"/>
+    <use transform="translate(357.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(357.1 253)" xlink:href="#b"/>
+    <use transform="translate(357.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(364.2 53)" xlink:href="#b"/>
+    <use transform="translate(364.2 68)" xlink:href="#b"/>
+    <use transform="translate(364.2 83)" xlink:href="#b"/>
+    <use transform="translate(364.2 98)" xlink:href="#b"/>
+    <use transform="translate(364.2 113)" xlink:href="#b"/>
+    <use transform="translate(364.2 155)" xlink:href="#b"/>
+    <use transform="translate(364.2 170)" xlink:href="#b"/>
+    <use transform="translate(364.2 185)" xlink:href="#b"/>
+    <use transform="translate(364.2 200)" xlink:href="#b"/>
+    <use transform="translate(364.2 215)" xlink:href="#b"/>
+    <use transform="translate(379.2 53)" xlink:href="#b"/>
+    <use transform="translate(379.2 68)" xlink:href="#b"/>
+    <use transform="translate(379.2 83)" xlink:href="#b"/>
+    <use transform="translate(379.2 98)" xlink:href="#b"/>
+    <use transform="translate(379.2 113)" xlink:href="#b"/>
+    <use transform="translate(379.2 155)" xlink:href="#b"/>
+    <use transform="translate(379.2 170)" xlink:href="#b"/>
+    <use transform="translate(379.2 185)" xlink:href="#b"/>
+    <use transform="translate(379.2 200)" xlink:href="#b"/>
+    <use transform="translate(379.2 215)" xlink:href="#b"/>
+    <use transform="translate(387.2 -1)" xlink:href="#b"/>
+    <use transform="translate(387.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(387.2 253)" xlink:href="#b"/>
+    <use transform="translate(387.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(394.2 53)" xlink:href="#b"/>
+    <use transform="translate(394.2 68)" xlink:href="#b"/>
+    <use transform="translate(394.2 83)" xlink:href="#b"/>
+    <use transform="translate(394.2 98)" xlink:href="#b"/>
+    <use transform="translate(394.2 113)" xlink:href="#b"/>
+    <use transform="translate(394.2 155)" xlink:href="#b"/>
+    <use transform="translate(394.2 170)" xlink:href="#b"/>
+    <use transform="translate(394.2 185)" xlink:href="#b"/>
+    <use transform="translate(394.2 200)" xlink:href="#b"/>
+    <use transform="translate(394.2 215)" xlink:href="#b"/>
+    <use transform="translate(402.2 -1)" xlink:href="#b"/>
+    <use transform="translate(402.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(402.2 253)" xlink:href="#b"/>
+    <use transform="translate(402.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(409.2 53)" xlink:href="#b"/>
+    <use transform="translate(409.2 68)" xlink:href="#b"/>
+    <use transform="translate(409.2 83)" xlink:href="#b"/>
+    <use transform="translate(409.2 98)" xlink:href="#b"/>
+    <use transform="translate(409.2 113)" xlink:href="#b"/>
+    <use transform="translate(409.2 155)" xlink:href="#b"/>
+    <use transform="translate(409.2 170)" xlink:href="#b"/>
+    <use transform="translate(409.2 185)" xlink:href="#b"/>
+    <use transform="translate(409.2 200)" xlink:href="#b"/>
+    <use transform="translate(409.2 215)" xlink:href="#b"/>
+    <use transform="translate(417.1 -1)" xlink:href="#b"/>
+    <use transform="translate(417.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(417.1 253)" xlink:href="#b"/>
+    <use transform="translate(417.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(424.2 53)" xlink:href="#b"/>
+    <use transform="translate(424.2 68)" xlink:href="#b"/>
+    <use transform="translate(424.2 83)" xlink:href="#b"/>
+    <use transform="translate(424.2 98)" xlink:href="#b"/>
+    <use transform="translate(424.2 113)" xlink:href="#b"/>
+    <use transform="translate(424.2 155)" xlink:href="#b"/>
+    <use transform="translate(424.2 170)" xlink:href="#b"/>
+    <use transform="translate(424.2 185)" xlink:href="#b"/>
+    <use transform="translate(424.2 200)" xlink:href="#b"/>
+    <use transform="translate(424.2 215)" xlink:href="#b"/>
+    <use transform="translate(432.1 -1)" xlink:href="#b"/>
+    <use transform="translate(432.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(432.1 253)" xlink:href="#b"/>
+    <use transform="translate(432.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(439.2 53)" xlink:href="#b"/>
+    <use transform="translate(439.2 68)" xlink:href="#b"/>
+    <use transform="translate(439.2 83)" xlink:href="#b"/>
+    <use transform="translate(439.2 98)" xlink:href="#b"/>
+    <use transform="translate(439.2 113)" xlink:href="#b"/>
+    <use transform="translate(439.2 155)" xlink:href="#b"/>
+    <use transform="translate(439.2 170)" xlink:href="#b"/>
+    <use transform="translate(439.2 185)" xlink:href="#b"/>
+    <use transform="translate(439.2 200)" xlink:href="#b"/>
+    <use transform="translate(439.2 215)" xlink:href="#b"/>
+    <use transform="translate(447.1 -1)" xlink:href="#b"/>
+    <use transform="translate(447.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(447.1 253)" xlink:href="#b"/>
+    <use transform="translate(447.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(454.2 53)" xlink:href="#b"/>
+    <use transform="translate(454.2 68)" xlink:href="#b"/>
+    <use transform="translate(454.2 83)" xlink:href="#b"/>
+    <use transform="translate(454.2 98)" xlink:href="#b"/>
+    <use transform="translate(454.2 113)" xlink:href="#b"/>
+    <use transform="translate(454.2 155)" xlink:href="#b"/>
+    <use transform="translate(454.2 170)" xlink:href="#b"/>
+    <use transform="translate(454.2 185)" xlink:href="#b"/>
+    <use transform="translate(454.2 200)" xlink:href="#b"/>
+    <use transform="translate(454.2 215)" xlink:href="#b"/>
+    <use transform="translate(469.2 53)" xlink:href="#b"/>
+    <use transform="translate(469.2 68)" xlink:href="#b"/>
+    <use transform="translate(469.2 83)" xlink:href="#b"/>
+    <use transform="translate(469.2 98)" xlink:href="#b"/>
+    <use transform="translate(469.2 113)" xlink:href="#b"/>
+    <use transform="translate(469.2 155)" xlink:href="#b"/>
+    <use transform="translate(469.2 170)" xlink:href="#b"/>
+    <use transform="translate(469.2 185)" xlink:href="#b"/>
+    <use transform="translate(469.2 200)" xlink:href="#b"/>
+    <use transform="translate(469.2 215)" xlink:href="#b"/>
+    <use transform="translate(484.2 53)" xlink:href="#b"/>
+    <use transform="translate(484.2 68)" xlink:href="#b"/>
+    <use transform="translate(484.2 83)" xlink:href="#b"/>
+    <use transform="translate(484.2 98)" xlink:href="#b"/>
+    <use transform="translate(484.2 113)" xlink:href="#b"/>
+    <use transform="translate(484.2 155)" xlink:href="#b"/>
+    <use transform="translate(484.2 170)" xlink:href="#b"/>
+    <use transform="translate(484.2 185)" xlink:href="#b"/>
+    <use transform="translate(484.2 200)" xlink:href="#b"/>
+    <use transform="translate(484.2 215)" xlink:href="#b"/>
+    <use transform="translate(493.2 -1)" xlink:href="#b"/>
+    <use transform="translate(493.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(493.2 253)" xlink:href="#b"/>
+    <use transform="translate(493.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(499.2 53)" xlink:href="#b"/>
+    <use transform="translate(499.2 68)" xlink:href="#b"/>
+    <use transform="translate(499.2 83)" xlink:href="#b"/>
+    <use transform="translate(499.2 98)" xlink:href="#b"/>
+    <use transform="translate(499.2 113)" xlink:href="#b"/>
+    <use transform="translate(499.2 155)" xlink:href="#b"/>
+    <use transform="translate(499.2 170)" xlink:href="#b"/>
+    <use transform="translate(499.2 185)" xlink:href="#b"/>
+    <use transform="translate(499.2 200)" xlink:href="#b"/>
+    <use transform="translate(499.2 215)" xlink:href="#b"/>
+    <use transform="translate(508.2 -1)" xlink:href="#b"/>
+    <use transform="translate(508.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(508.2 253)" xlink:href="#b"/>
+    <use transform="translate(508.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(514.2 53)" xlink:href="#b"/>
+    <use transform="translate(514.2 68)" xlink:href="#b"/>
+    <use transform="translate(514.2 83)" xlink:href="#b"/>
+    <use transform="translate(514.2 98)" xlink:href="#b"/>
+    <use transform="translate(514.2 113)" xlink:href="#b"/>
+    <use transform="translate(514.2 155)" xlink:href="#b"/>
+    <use transform="translate(514.2 170)" xlink:href="#b"/>
+    <use transform="translate(514.2 185)" xlink:href="#b"/>
+    <use transform="translate(514.2 200)" xlink:href="#b"/>
+    <use transform="translate(514.2 215)" xlink:href="#b"/>
+    <use transform="translate(523.1 -1)" xlink:href="#b"/>
+    <use transform="translate(523.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(523.1 253)" xlink:href="#b"/>
+    <use transform="translate(523.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(529.2 53)" xlink:href="#b"/>
+    <use transform="translate(529.2 68)" xlink:href="#b"/>
+    <use transform="translate(529.2 83)" xlink:href="#b"/>
+    <use transform="translate(529.2 98)" xlink:href="#b"/>
+    <use transform="translate(529.2 113)" xlink:href="#b"/>
+    <use transform="translate(529.2 155)" xlink:href="#b"/>
+    <use transform="translate(529.2 170)" xlink:href="#b"/>
+    <use transform="translate(529.2 185)" xlink:href="#b"/>
+    <use transform="translate(529.2 200)" xlink:href="#b"/>
+    <use transform="translate(529.2 215)" xlink:href="#b"/>
+    <use transform="translate(538.1 -1)" xlink:href="#b"/>
+    <use transform="translate(538.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(538.1 253)" xlink:href="#b"/>
+    <use transform="translate(538.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(544.2 53)" xlink:href="#b"/>
+    <use transform="translate(544.2 68)" xlink:href="#b"/>
+    <use transform="translate(544.2 83)" xlink:href="#b"/>
+    <use transform="translate(544.2 98)" xlink:href="#b"/>
+    <use transform="translate(544.2 113)" xlink:href="#b"/>
+    <use transform="translate(544.2 155)" xlink:href="#b"/>
+    <use transform="translate(544.2 170)" xlink:href="#b"/>
+    <use transform="translate(544.2 185)" xlink:href="#b"/>
+    <use transform="translate(544.2 200)" xlink:href="#b"/>
+    <use transform="translate(544.2 215)" xlink:href="#b"/>
+    <use transform="translate(553.1 -1)" xlink:href="#b"/>
+    <use transform="translate(553.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(553.1 253)" xlink:href="#b"/>
+    <use transform="translate(553.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(559.2 53)" xlink:href="#b"/>
+    <use transform="translate(559.2 68)" xlink:href="#b"/>
+    <use transform="translate(559.2 83)" xlink:href="#b"/>
+    <use transform="translate(559.2 98)" xlink:href="#b"/>
+    <use transform="translate(559.2 113)" xlink:href="#b"/>
+    <use transform="translate(559.2 155)" xlink:href="#b"/>
+    <use transform="translate(559.2 170)" xlink:href="#b"/>
+    <use transform="translate(559.2 185)" xlink:href="#b"/>
+    <use transform="translate(559.2 200)" xlink:href="#b"/>
+    <use transform="translate(559.2 215)" xlink:href="#b"/>
+    <use transform="translate(574.2 53)" xlink:href="#b"/>
+    <use transform="translate(574.2 68)" xlink:href="#b"/>
+    <use transform="translate(574.2 83)" xlink:href="#b"/>
+    <use transform="translate(574.2 98)" xlink:href="#b"/>
+    <use transform="translate(574.2 113)" xlink:href="#b"/>
+    <use transform="translate(574.2 155)" xlink:href="#b"/>
+    <use transform="translate(574.2 170)" xlink:href="#b"/>
+    <use transform="translate(574.2 185)" xlink:href="#b"/>
+    <use transform="translate(574.2 200)" xlink:href="#b"/>
+    <use transform="translate(574.2 215)" xlink:href="#b"/>
+    <use transform="translate(585.2 -1)" xlink:href="#b"/>
+    <use transform="translate(585.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(585.2 253)" xlink:href="#b"/>
+    <use transform="translate(585.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(589.2 53)" xlink:href="#b"/>
+    <use transform="translate(589.2 68)" xlink:href="#b"/>
+    <use transform="translate(589.2 83)" xlink:href="#b"/>
+    <use transform="translate(589.2 98)" xlink:href="#b"/>
+    <use transform="translate(589.2 113)" xlink:href="#b"/>
+    <use transform="translate(589.2 155)" xlink:href="#b"/>
+    <use transform="translate(589.2 170)" xlink:href="#b"/>
+    <use transform="translate(589.2 185)" xlink:href="#b"/>
+    <use transform="translate(589.2 200)" xlink:href="#b"/>
+    <use transform="translate(589.2 215)" xlink:href="#b"/>
+    <use transform="translate(600.2 -1)" xlink:href="#b"/>
+    <use transform="translate(600.2 13.5)" xlink:href="#b"/>
+    <use transform="translate(600.2 253)" xlink:href="#b"/>
+    <use transform="translate(600.2 267.5)" xlink:href="#b"/>
+    <use transform="translate(604.2 53)" xlink:href="#b"/>
+    <use transform="translate(604.2 68)" xlink:href="#b"/>
+    <use transform="translate(604.2 83)" xlink:href="#b"/>
+    <use transform="translate(604.2 98)" xlink:href="#b"/>
+    <use transform="translate(604.2 113)" xlink:href="#b"/>
+    <use transform="translate(604.2 155)" xlink:href="#b"/>
+    <use transform="translate(604.2 170)" xlink:href="#b"/>
+    <use transform="translate(604.2 185)" xlink:href="#b"/>
+    <use transform="translate(604.2 200)" xlink:href="#b"/>
+    <use transform="translate(604.2 215)" xlink:href="#b"/>
+    <use transform="translate(615.1 -1)" xlink:href="#b"/>
+    <use transform="translate(615.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(615.1 253)" xlink:href="#b"/>
+    <use transform="translate(615.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(619.2 53)" xlink:href="#b"/>
+    <use transform="translate(619.2 68)" xlink:href="#b"/>
+    <use transform="translate(619.2 83)" xlink:href="#b"/>
+    <use transform="translate(619.2 98)" xlink:href="#b"/>
+    <use transform="translate(619.2 113)" xlink:href="#b"/>
+    <use transform="translate(619.2 155)" xlink:href="#b"/>
+    <use transform="translate(619.2 170)" xlink:href="#b"/>
+    <use transform="translate(619.2 185)" xlink:href="#b"/>
+    <use transform="translate(619.2 200)" xlink:href="#b"/>
+    <use transform="translate(619.2 215)" xlink:href="#b"/>
+    <use transform="translate(630.1 -1)" xlink:href="#b"/>
+    <use transform="translate(630.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(630.1 253)" xlink:href="#b"/>
+    <use transform="translate(630.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(634.2 53)" xlink:href="#b"/>
+    <use transform="translate(634.2 68)" xlink:href="#b"/>
+    <use transform="translate(634.2 83)" xlink:href="#b"/>
+    <use transform="translate(634.2 98)" xlink:href="#b"/>
+    <use transform="translate(634.2 113)" xlink:href="#b"/>
+    <use transform="translate(634.2 155)" xlink:href="#b"/>
+    <use transform="translate(634.2 170)" xlink:href="#b"/>
+    <use transform="translate(634.2 185)" xlink:href="#b"/>
+    <use transform="translate(634.2 200)" xlink:href="#b"/>
+    <use transform="translate(634.2 215)" xlink:href="#b"/>
+    <use transform="translate(645.1 -1)" xlink:href="#b"/>
+    <use transform="translate(645.1 13.5)" xlink:href="#b"/>
+    <use transform="translate(645.1 253)" xlink:href="#b"/>
+    <use transform="translate(645.1 267.5)" xlink:href="#b"/>
+    <use transform="translate(649.2 53)" xlink:href="#b"/>
+    <use transform="translate(649.2 68)" xlink:href="#b"/>
+    <use transform="translate(649.2 83)" xlink:href="#b"/>
+    <use transform="translate(649.2 98)" xlink:href="#b"/>
+    <use transform="translate(649.2 113)" xlink:href="#b"/>
+    <use transform="translate(649.2 155)" xlink:href="#b"/>
+    <use transform="translate(649.2 170)" xlink:href="#b"/>
+    <use transform="translate(649.2 185)" xlink:href="#b"/>
+    <use transform="translate(649.2 200)" xlink:href="#b"/>
+    <use transform="translate(649.2 215)" xlink:href="#b"/>
+  </g>
+  <path fill="#40b040" fill-opacity=".5" d="M313.4 132.7h10v9.5h-10zm30 132h10v9.5h-10z"/>
+  <g stroke-width="1.6" font-size="10.5" font-weight="400" opacity=".7">
+    <path aria-label="1" d="M59.2 106.2h8.2v.7H60v1.5h-.8z"/>
+    <path aria-label="5" d="M122.9 107.6q0-1.4.6-2 .6-.7 1.8-.7.7 0 1.3.2.5.3.8.8.4.6.4 1.4 0 .7-.3 1.3-.3.6-.8 1l-.7-.3q.5-.3.7-.9.3-.5.3-1.1 0-.9-.5-1.3-.4-.4-1.2-.4-.8 0-1.3.5-.4.5-.4 1.7v1.4l-4.1-.4v-3.6h.7v3l2.7.3z"/>
+    <path aria-label="10" d="M193.3 109.6h8.2v.7h-7.4v1.5h-.8zM201.6 105.4q0 .7-.5 1.3-.5.6-1.4 1-1 .3-2.3.3-1.2 0-2.2-.3-1-.4-1.4-1-.5-.6-.5-1.3 0-.8.5-1.4.5-.6 1.4-1 1-.3 2.2-.3 1.3 0 2.3.4.9.3 1.4 1 .5.5.5 1.3zm-.8 0q0-.6-.4-1-.4-.5-1.1-.7-.8-.3-1.9-.3-1 0-1.8.3-.8.2-1.2.7-.4.4-.4 1 0 .5.4 1 .4.4 1.2.7.8.2 1.8.2 1.1 0 1.9-.2.7-.3 1.1-.7.4-.5.4-1z"/>
+    <path aria-label="15" d="M269.4 109.2h8.2v.7H270v1.6h-.7zM272.8 105.9q0-1.4.6-2 .6-.7 1.8-.7.7 0 1.3.2.5.3.8.8.4.6.4 1.4 0 .7-.3 1.3-.3.6-.8 1l-.7-.3q.5-.3.7-.9.3-.5.3-1.1 0-.9-.5-1.3-.4-.5-1.2-.5-.8 0-1.3.6-.4.5-.4 1.7v1.4l-4.1-.4v-3.6h.7v3l2.7.3z"/>
+    <path aria-label="20" d="M350.9 107.9h.7v4.6h-.5l-3.4-2.8-1-.7-1-.1q-.7 0-1.1.4-.4.4-.4 1.1 0 1.2.9 1.8l-.5.5q-.6-.4-1-1-.2-.6-.2-1.4 0-1 .6-1.5.6-.6 1.6-.6l1.2.2q.6.2 1.4.8l2.7 2.3zM351.7 104.4q0 .8-.5 1.4-.5.6-1.4 1-1 .2-2.2.2-1.3 0-2.3-.3-.9-.3-1.4-1-.5-.5-.5-1.3t.5-1.3q.5-.6 1.4-1 1-.3 2.3-.3 1.2 0 2.2.3 1 .4 1.4 1 .5.5.5 1.3zm-.8 0q0-.6-.4-1t-1.1-.7q-.8-.2-1.8-.2-1.1 0-1.9.2-.7.3-1.1.7-.4.4-.4 1t.4 1q.4.5 1.1.7.8.3 1.9.3 1 0 1.8-.3.7-.2 1.1-.7.4-.4.4-1z"/>
+    <path aria-label="25" d="M427 107.5h.7v4.6h-.6l-3.3-2.7-1.1-.7-1-.2q-.7 0-1 .4-.5.4-.5 1.2 0 1.1 1 1.8l-.6.4q-.5-.3-.8-1-.3-.5-.3-1.3 0-1 .6-1.6.5-.6 1.6-.6l1.2.2 1.3.9 2.8 2.2zM422.9 105q0-1.5.6-2.2.7-.6 1.8-.6.7 0 1.3.3.5.2.9.8.3.5.3 1.3 0 .7-.3 1.3-.3.7-.8 1l-.6-.3q.4-.3.7-.9.2-.5.2-1.1 0-.8-.4-1.3-.5-.4-1.3-.4t-1.2.5q-.5.5-.5 1.7v1.4l-4-.4v-3.6h.7v3l2.6.3z"/>
+    <path aria-label="30" d="M496.9 110.1q0-1 .7-1.6.6-.5 1.6-.5.7 0 1.2.3.6.2.9.8.3.5.3 1.3 0 .7-.3 1.4l-.7 1-.7-.4q.4-.3.7-.8l.2-1.2q0-.8-.4-1.3-.4-.4-1.2-.4-.8 0-1.2.4-.4.5-.4 1.4v.5h-.6L494 109v3.4h-.7v-4.2h.6zM501.6 104.4q0 .8-.5 1.4-.5.6-1.4 1-1 .2-2.2.2-1.3 0-2.3-.3-.9-.3-1.4-1-.5-.5-.5-1.3t.5-1.3q.5-.6 1.4-1 1-.3 2.3-.3 1.2 0 2.2.3 1 .4 1.4 1 .5.5.5 1.3zm-.8 0q0-.6-.4-1-.3-.4-1.1-.7-.8-.2-1.8-.2-1.1 0-1.9.2-.7.3-1.1.7-.4.4-.4 1t.4 1q.4.5 1.1.7.8.3 1.9.3 1 0 1.8-.3.8-.2 1.1-.7.4-.4.4-1z"/>
+    <path aria-label="35" d="M573 109.7q0-1 .6-1.6.7-.5 1.7-.5.7 0 1.2.3.6.2.9.8.3.5.3 1.3 0 .7-.3 1.3-.3.7-.8 1l-.6-.3q.4-.3.7-.8l.2-1.2q0-.8-.4-1.3-.5-.4-1.2-.4-.8 0-1.2.4-.5.5-.5 1.4v.4h-.6l-2.8-1.8v3.4h-.8v-4.3h.6zM572.8 105q0-1.4.6-2 .7-.8 1.8-.8.7 0 1.3.3.5.3.9.8.3.6.3 1.3 0 .8-.3 1.4-.3.6-.8 1l-.6-.3q.4-.3.7-.9.2-.5.2-1.1 0-.9-.4-1.3-.5-.5-1.3-.5t-1.2.5q-.5.5-.5 1.7v1.4l-4-.3v-3.6h.7v3l2.6.2z"/>
+    <path aria-label="40" d="M649.5 107.3v1.3h2.2v.7h-2.2v3.7h-.6l-5.4-3.5v-.7l5.3 3.3v-2.8h-2v-.7h2v-1.3zM651.7 104q0 .8-.5 1.4-.5.6-1.4 1-1 .3-2.2.3-1.3 0-2.2-.3-1-.4-1.5-1t-.5-1.3q0-.8.5-1.4.5-.6 1.5-1 .9-.3 2.2-.3 1.3 0 2.2.4 1 .3 1.4.9.5.6.5 1.4zm-.7 0q0-.5-.4-1-.4-.4-1.2-.6-.7-.3-1.8-.3t-1.9.3q-.7.2-1.1.6-.4.5-.4 1 0 .6.4 1 .4.5 1.1.7.8.3 1.9.3 1 0 1.8-.3.8-.2 1.2-.6.4-.5.4-1z"/>
+    <path aria-label="1" d="M59.2 298.2h8.2v.6H60v1.6h-.8z"/>
+    <path aria-label="5" d="M122.9 299.7q0-1.5.6-2.1.6-.7 1.8-.7.7 0 1.3.3.5.3.8.8.4.5.4 1.3 0 .7-.3 1.4-.3.6-.8 1l-.7-.3q.5-.4.7-.9.3-.5.3-1.2 0-.8-.5-1.2-.4-.5-1.2-.5-.8 0-1.3.5-.4.5-.4 1.7v1.4l-4.1-.3v-3.6h.7v3l2.7.2z"/>
+    <path aria-label="10" d="M193.3 301.6h8.2v.6h-7.4v1.6h-.8zM201.6 297.3q0 .8-.5 1.4-.5.6-1.4 1-1 .3-2.3.3-1.2 0-2.2-.4-1-.3-1.4-.9-.5-.6-.5-1.4 0-.7.5-1.3.5-.6 1.4-1 1-.3 2.2-.3 1.3 0 2.3.3.9.4 1.4 1 .5.6.5 1.3zm-.8 0q0-.5-.4-1-.4-.4-1.1-.6-.8-.3-1.9-.3-1 0-1.8.3-.8.2-1.2.6-.4.5-.4 1 0 .6.4 1 .4.5 1.2.7.8.3 1.8.3 1.1 0 1.9-.3.7-.2 1.1-.6.4-.5.4-1z"/>
+    <path aria-label="15" d="M269.4 301.2h8.2v.7H270v1.5h-.7zM272.8 297.9q0-1.5.6-2.1.6-.7 1.8-.7.7 0 1.3.3.5.3.8.8.4.6.4 1.3 0 .7-.3 1.4-.3.6-.8 1l-.7-.3q.5-.4.7-.9.3-.5.3-1.2 0-.8-.5-1.2-.4-.5-1.2-.5-.8 0-1.3.5-.4.5-.4 1.7v1.4l-4.1-.3v-3.6h.7v3l2.7.2z"/>
+    <path aria-label="20" d="M350.9 300h.7v4.6h-.5l-3.4-2.8-1-.7-1-.2q-.7 0-1.1.4-.4.4-.4 1.2 0 1.1.9 1.8l-.5.5q-.6-.4-1-1-.2-.6-.2-1.4 0-1 .6-1.6.6-.6 1.6-.6.6 0 1.2.3.6.2 1.4.8l2.7 2.3zM351.7 296.5q0 .7-.5 1.3-.5.6-1.4 1-1 .3-2.2.3-1.3 0-2.3-.3-.9-.4-1.4-1-.5-.6-.5-1.3 0-.8.5-1.4.5-.6 1.4-1 1-.3 2.3-.3 1.2 0 2.2.4 1 .3 1.4 1 .5.5.5 1.3zm-.8 0q0-.6-.4-1-.4-.5-1.1-.7-.8-.3-1.8-.3-1.1 0-1.9.3-.7.2-1.1.7-.4.4-.4 1t.4 1q.4.4 1.1.7.8.2 1.9.2 1 0 1.8-.2.7-.3 1.1-.7.4-.4.4-1z"/>
+    <path aria-label="25" d="M427 299.5h.7v4.6h-.6l-3.3-2.7-1.1-.7-1-.2q-.7 0-1 .4-.5.4-.5 1.1 0 1.2 1 1.8l-.6.5q-.5-.4-.8-1-.3-.6-.3-1.3 0-1 .6-1.6.5-.6 1.6-.6l1.2.2q.6.2 1.3.9l2.8 2.2zM422.9 297q0-1.5.6-2.2.7-.6 1.8-.6.7 0 1.3.2.5.3.9.8.3.6.3 1.4 0 .7-.3 1.3-.3.6-.8 1l-.6-.3q.4-.3.7-.9.2-.5.2-1.1 0-.9-.4-1.3-.5-.4-1.3-.4t-1.2.5q-.5.5-.5 1.7v1.4l-4-.4v-3.6h.7v3l2.6.3z"/>
+    <path aria-label="30" d="M496.9 302.1q0-1 .7-1.6.6-.5 1.6-.5.7 0 1.2.3.6.2.9.8.3.5.3 1.3 0 .7-.3 1.3-.3.7-.7 1l-.7-.3q.4-.3.7-.9.2-.5.2-1.1 0-.8-.4-1.3-.4-.4-1.2-.4-.8 0-1.2.4-.4.5-.4 1.4v.4h-.6l-2.9-1.8v3.4h-.7v-4.3h.6zM501.6 296.4q0 .8-.5 1.4-.5.6-1.4.9-1 .3-2.2.3-1.3 0-2.3-.3-.9-.3-1.4-1-.5-.5-.5-1.3t.5-1.4q.5-.6 1.4-1 1-.2 2.3-.2 1.2 0 2.2.3 1 .3 1.4 1 .5.5.5 1.3zm-.8 0q0-.6-.4-1-.3-.5-1.1-.7-.8-.3-1.8-.3-1.1 0-1.9.3-.7.2-1.1.7-.4.4-.4 1t.4 1q.4.4 1.1.7.8.2 1.9.2 1 0 1.8-.2.8-.3 1.1-.7.4-.4.4-1z"/>
+    <path aria-label="35" d="M573 301.7q0-1 .6-1.6.7-.5 1.7-.5.7 0 1.2.2.6.3.9.9.3.5.3 1.3 0 .7-.3 1.3-.3.7-.8 1l-.6-.3q.4-.3.7-.9.2-.5.2-1.1 0-.8-.4-1.3-.5-.4-1.2-.4-.8 0-1.2.4-.5.5-.5 1.3v.5h-.6l-2.8-1.8v3.4h-.8v-4.3h.6zM572.8 297q0-1.5.6-2.1.7-.7 1.8-.7.7 0 1.3.3.5.3.9.8.3.5.3 1.3 0 .7-.3 1.4-.3.6-.8 1l-.6-.3.7-1q.2-.4.2-1 0-.9-.4-1.3-.5-.5-1.3-.5t-1.2.5q-.5.5-.5 1.7v1.4l-4-.3v-3.6h.7v3l2.6.2z"/>
+    <path aria-label="40" d="M649.5 299.4v1.3h2.2v.7h-2.2v3.7h-.6l-5.4-3.5v-.8l5.3 3.4v-2.9h-2v-.6h2v-1.3zM651.7 296.1q0 .8-.5 1.4-.5.6-1.4 1-1 .2-2.2.2-1.3 0-2.2-.3-1-.3-1.5-1-.5-.5-.5-1.3 0-.7.5-1.3.5-.6 1.5-1 .9-.3 2.2-.3 1.3 0 2.2.3 1 .4 1.4 1 .5.6.5 1.3zm-.7 0q0-.6-.4-1t-1.2-.7q-.7-.2-1.8-.2t-1.9.2q-.7.3-1.1.7-.4.4-.4 1t.4 1q.4.5 1.1.7.8.3 1.9.3 1 0 1.8-.3.8-.2 1.2-.7.4-.4.4-1z"/>
+  </g>
+  <path fill="#006837" d="M58.1 141.2c-.8 0-1.5.7-1.5 1.5v120.9c0 .8.7 1.5 1.5 1.5h2V256c0-2.3 1.4-4.1 3.4-4.1s3.6 1.8 3.6 4v9.3H75v-9c0-2.3 1.6-4 3.6-4s3.6 1.7 3.6 4v9H90v-8.7c0-2.3 1.6-4.1 3.6-4.1s3.6 1.8 3.6 4v8.7h7.8v-9.2c0-2.3 1.5-4 3.5-4s3.6 1.7 3.6 4v9.2h8V256c0-2.3 1.5-4.1 3.5-4.1s3.6 1.8 3.6 4v9.3h7.8v-9c0-2.3 1.6-4 3.6-4s3.6 1.7 3.6 4v9h7.8v-8.7c0-2.3 1.6-4.1 3.6-4.1s3.6 1.8 3.6 4v8.7h7.8v-9.2c0-2.3 1.5-4 3.5-4s3.6 1.7 3.6 4v9.2h8V256c0-2.3 1.5-4.1 3.5-4.1s3.6 1.8 3.6 4v9.3h7.8v-9c0-2.3 1.6-4 3.6-4s3.6 1.7 3.6 4v9h7.8v-8.7c0-2.3 1.6-4.1 3.6-4.1s3.6 1.8 3.6 4v8.7h7.8v-9.2c0-2.3 1.5-4 3.5-4s3.6 1.7 3.6 4v9.2h8V256c0-2.3 1.5-4.1 3.5-4.1s3.6 1.8 3.6 4v9.3h7.8v-9c0-2.3 1.6-4 3.6-4s3.6 1.7 3.6 4v9h7.8v-8.7c0-2.3 1.6-4.1 3.6-4.1s3.6 1.8 3.6 4v8.7h7.8v-9.2c0-2.3 1.5-4 3.5-4s3.6 1.7 3.6 4v9.2h8V256c0-2.3 1.5-4.1 3.5-4.1s3.6 1.8 3.6 4v9.3h7.8v-9c0-2.3 1.6-4 3.6-4s3.6 1.7 3.6 4v9h7.8v-8.7c0-2.3 1.6-4.1 3.6-4.1s3.6 1.8 3.6 4v8.7h7.8v-9.2c0-2.3 1.5-4 3.5-4s3.6 1.7 3.6 4v9.2h3c.8 0 1.5-.7 1.5-1.5v-41.8H349c-2.2 0-4-1.6-4-3.6s1.8-3.6 4-3.6h7.5v-8H349c-2.2 0-4-1.5-4-3.5s1.8-3.6 4-3.6h7.6v-7.8h-7.4c-2.3 0-4-1.6-4-3.6s1.7-3.6 4-3.6h7.4v-41.8c0-.8-.7-1.5-1.5-1.5h-3v8.3c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.3h-7.7v8.9c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.9h-7.8v8.6c0 2.2-1.6 4-3.6 4s-3.6-1.8-3.6-4v-8.6h-7.8v8.4c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.4h-8v8.3c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.3h-7.7v8.9c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.9h-7.8v8.6c0 2.2-1.6 4-3.6 4s-3.6-1.8-3.6-4v-8.6h-7.8v8.4c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.4H232v8.3c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.3h-7.7v8.9c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.9h-7.8v8.6c0 2.2-1.6 4-3.6 4s-3.6-1.8-3.6-4v-8.6h-7.8v8.4c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.4H172v8.3c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.3h-7.7v8.9c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.9h-7.8v8.6c0 2.2-1.6 4-3.6 4s-3.6-1.8-3.6-4v-8.6h-7.8v8.4c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.4H112v8.3c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.3h-7.7v8.9c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.9h-7.8v8.6c0 2.2-1.6 4-3.6 4s-3.6-1.8-3.6-4v-8.6h-7.8v8.4c0 2.3-1.6 4-3.6 4s-3.6-1.7-3.6-4v-8.4zm9.5 22.4c3 0 6.2 3.3 6.2 6.3s-3.2 6-6 6c-3 0-6.4-3.2-6.4-6.2s3.3-6.1 6.2-6.1zm276.8-.7c3 0 6.7 3.8 6.7 6.8s-4 6.3-7 6.3c-2.9 0-6.4-3.2-6.4-6.2s3.8-7 6.7-7zM67.7 230.7c3 0 6.2 3 6.2 5.9 0 3-3.3 6-6.2 6-2.9 0-6.4-3-6.4-6s3.5-6 6.4-6zm277-.2c2.8 0 6.2 4 6.2 6.9 0 3-3.5 6-6.4 6-3 0-6.4-4-6.4-7s3.6-6 6.5-6z"/>
+  <path fill="#9a916c" d="M78.5 251.5a4 4 0 00-4 4v9.6H76a2.5 2.5 0 015 0h1.7v-9.5c0-2.2-1.9-4-4.2-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm8.4-4V265H91a2.5 2.5 0 015 0h1.7v-13.6zm6.6 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4 4 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.7v-9.5c0-2.2-1.9-4-4.2-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4 4 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.7v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm8.4-4V265h1.6a2.5 2.5 0 015 0h1.6v-13.6zm6.6 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4.2 4v9.6h1.7a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm8.3-4V265h1.6a2.5 2.5 0 015 0h1.7v-13.6zm6.6 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4 4 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.7v-9.5c0-2.2-1.9-4-4.2-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4 4 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.7v-9.5c0-2.2-1.9-4-4.2-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.6-4a4.1 4.1 0 00-4.2 4v9.6h1.6a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.4 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4 4 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm8.4-4V265h1.6a2.5 2.5 0 015 0h1.6v-13.6zm6.6 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm12.5-4a4.1 4.1 0 00-4 4v9.6h1.5a2.5 2.5 0 015 0h1.6v-9.5a4 4 0 00-4-4zm2.5 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM82.7 150.8v-9.5h-1.6a2.5 2.5 0 01-5 0h-1.7v9.5a4.2 4.2 0 008.3 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2 1.6v-13.6h-1.6a2.5 2.5 0 01-5 0h-1.7v13.6zm-4.2-1.6a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2-2.5v-9.5h-1.6a2.5 2.5 0 01-5 0h-1.7v9.5a4.2 4.2 0 008.3 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2-2.5v-9.5H126a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2-2.5v-9.5H141a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2-2.5v-9.5H156a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2 1.6v-13.6H171a2.5 2.5 0 01-5 0h-1.6v13.6zm-4.2-1.6a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2-2.5v-9.5H186a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.1-2.5v-9.5H201a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19-2.5v-9.5H216a2.5 2.5 0 01-5 0h-1.7v9.5a4.2 4.2 0 008.3 0zm-4 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19-2.5v-9.5H231a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2 1.6v-13.6H246a2.5 2.5 0 01-5 0h-1.7v13.6zm-4.2-1.6a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2-2.5v-9.5H261a2.5 2.5 0 01-5 0h-1.7v9.5a4.2 4.2 0 008.3 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.2-2.5v-9.5H276a2.5 2.5 0 01-5 0h-1.7v9.5a4.2 4.2 0 008.3 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19.1-2.5v-9.5H291a2.5 2.5 0 01-5 0h-1.7v9.5a4.1 4.1 0 008.2 0zm-4 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19-2.5v-9.5H306a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19 1.6v-13.6H321a2.5 2.5 0 01-5 0h-1.6v13.6zm-4-1.6a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19-2.5v-9.5H336a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm19-2.5v-9.5H351a2.5 2.5 0 01-5 0h-1.6v9.5a4.1 4.1 0 008.2 0zm-4 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm-4.2 64.9a4 4 0 004 4h8.2v-1.5a2.5 2.5 0 010-5V214h-8a4.1 4.1 0 00-4.2 4.2zm4-2.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-3.9-8.4h12.1v-1.6a2.5 2.5 0 010-5V199h-12zm4-6.6a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-4-12.5a4 4 0 004 4h8.1v-1.5a2.5 2.5 0 010-5V184h-8a4 4 0 00-4.2 4zm4-2.5a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-280.7-35v-9.5h-1.6a2.5 2.5 0 01-5 0h-1.7v9.5a4.1 4.1 0 008.2 0zm-4.2 2.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5zm.1 98.3a4.1 4.1 0 00-4.2 4v9.6h1.7a2.5 2.5 0 015 0h1.6v-9.5c0-2.2-1.9-4-4.2-4zm2.4 4a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" class="st4"/>
+  <path fill="#fcee21" d="M353.8 236.8a9.4 9.4 0 11-18.8 0 9.4 9.4 0 0118.8 0zm-14.6 0a5.3 5.3 0 1010.5 0 5.3 5.3 0 00-10.5 0zm14.6-67.3a9.4 9.4 0 11-18.8 0 9.4 9.4 0 0118.8 0zm-14.6 0a5.3 5.3 0 1010.5 0 5.3 5.3 0 00-10.5 0zM77 236.8a9.4 9.4 0 11-18.8 0 9.4 9.4 0 0118.8 0zm-14.7 0a5.3 5.3 0 1010.5 0 5.3 5.3 0 00-10.5 0zM77 169.5a9.4 9.4 0 11-18.8 0 9.4 9.4 0 0118.8 0zm-14.7 0a5.3 5.3 0 1010.5 0 5.3 5.3 0 00-10.5 0z" class="st5"/>
+  <path fill="#30312e" d="M185.2 224v-41.6h41.6V224z"/>
+  <path fill="#acb1aa" d="M44.7 181.3a.7.7 0 00-.2 1.3l2 1-2 .7c-.4.2-.8.7-.8 1.2v35.3c0 .6.3 1 .8 1.2l2 .6a7 7 0 01-2 1 .8.8 0 00.4 1.5 8.1 8.1 0 002.6-1l.4-.3h30c.7 0 1.2-.5 1.2-1.2v-39c0-.6-.5-1.1-1.2-1.1H48l-.4-.2a8.7 8.7 0 00-2.6-1 .7.7 0 00-.2 0z"/>
+  <path fill="#2a2d2e" d="M156.7 219.5h17.8v12h-17.8zM110 179h14.8v15H110z" class="st9"/>
+  <path fill="#ecf6fd" d="M79.1 232.4h6v8.8h-6z"/>
+  <path fill="#ccc" d="M112.1 231.6v-15.3c0-.7.5-1.2 1.1-1.2h21.3c.6 0 1.2.5 1.2 1.2v15.2a1.2 1.2 0 01-1.2 1.2h-21.3c-.6 0-1-.5-1-1.2z"/>
+  <path fill="#fff" d="M113.6 224c0-4.1 3.3-7.4 7.3-7.4h6a7.4 7.4 0 110 14.7h-6c-4 0-7.4-3.3-7.4-7.3zm-.4 8.8h2.3c1 0 1.5-1.3.8-2l-2.2-2.2c-.8-.7-2-.2-2 .8v2.2a1.2 1.2 0 001.1 1.2zm-1-16.5v2.2c0 1 1.1 1.6 2 .8l2.1-2.2c.7-.7.2-2-.8-2h-2.3c-.7 0-1.2.5-1.2 1.2z" class="st12"/>
+  <path fill="#fff" d="M134.4 215h-2.2c-1 0-1.6 1.4-.8 2l2.2 2.3a1.2 1.2 0 002-.8v-2.2c0-.7-.5-1.2-1.2-1.2zm1.2 16.6v-2.2c0-1-1.3-1.5-2-.8l-2.2 2.2a1.2 1.2 0 00.8 2h2.2c.7 0 1.2-.5 1.2-1.2z" class="st12"/>
+  <path fill="#2a2d2e" d="M123.6 174h-12.4c-.7 0-1.2-.5-1.2-1.2v-9.3c0-.7.5-1.2 1.2-1.2h12.4c.6 0 1.2.5 1.2 1.2v9.4a1.2 1.2 0 01-1.2 1.2z" class="st9"/>
+  <circle cx="-238.2" cy="82.2" r="1.5" fill="#3c3" transform="rotate(-90)"/>
+  <path fill="#fff" d="M297.3 185l-.6.5c-5 0-6.9 2.3-8.4 5-.2-.8-.4-1.6-1.4-1.8-.3-1.4-1-1.6-1.6-2-.2-.2-1-1.5-2-1.3-.5-.6-1-1-2-.8-.7-.8-1.3-1-2-.6-1-1-1.6-.6-2.3-.2-1-.6-2.4 0-2.2 1.8-1 .7-.9 2.2-.9 2.6-.3.3-.6.6-.5 1.7-.7.7-.6 1.4-.2 2.3-.8 1 0 1.6 0 2.4-.4 1.2.2 1.5.4 2-.3 1.3.3 1.8 1 2.4v.7c1.2 2 3.4 3 4.6 3.4-1.2.3-3.6 1.3-4.6 3.3v.8c-.7.6-1.2.9-1 2.3-.2.5-.8.9-.3 2 0 .6-.5 1-.5 1.6 0 .3.1.5.4 1-.4.8-.5 1.5.2 2.3 0 1 .1 1.5.5 1.7 0 .2-.2 1.8 1 2.6-.3 1.8 1 2.4 2.1 1.7.6.3 1.1.8 2.3-.1.7.3 1.3 0 2-.6 1 .2 1.4-.3 2-1 1.2.2 1.8-1 2-1.3.7 0 1.3-.4 1.6-1.8 1-.2 1.2-1.1 1.4-2 1.5 2.8 3.6 5 8.4 5l.6.5a8.3 8.3 0 0012.5 1.5c1.5-.3 2.6-.7 3.8-1.2a9.5 9.5 0 007.3-5.8 22.2 22.2 0 003-5.4 9.3 9.3 0 003.1-6.8v-.1c0-2.4-.9-4.6-3-6.8a17.9 17.9 0 00-3-5.5 9 9 0 00-7.4-5.8c-1.2-.4-2.3-.8-3.8-1.1a8 8 0 00-12.5 1zm-.8 2.4c2 0-6.9 10.4-7.2 8.7-.8-5 2-8.8 7.2-8.7zm9.8 4.6c1.7 2.6.6 6.4-2.4 8.3-3 2-6.8 1.5-8.5-1-1.7-2.7-.6-6.4 2.4-8.4 3.1-2 7-1.5 8.5 1zm-30.4 7c.4 0 .7-.1.7-.2-.6-.6-1.3-1-1.8-1.8.3 0 .7.3 1-.2-.6-.4-1-1-1.4-1.6.5.4.7 0 1 0-.5-.6-1-1.1-1.4-2.1.4.3.7.6 1 .2-.2-.5-.5-1-.8-2.5.3.4.6 1 1 .5l-.6-2.3c.3.4.6.7 1 .4-.3-.7-.6-1.8-.4-2.7l.7.6v-2.5c.6.3 1.1.7 2 1v-1c1 .4 1.3 1.3 1.7 1.4.2-.3.2-.8 0-1.2.8.4 1.2 1 1.8 1.8.1-.2.3-.5.1-1.1a15.4 15.4 0 011.7 1.9c0-.1 0-.6.2-1 .6.6 1 1.6 1.5 2.4.3-.4.2-.7.2-1 .5.6.8 1.5 1 2.5.4-.2.4-.3.5-.8.5 1 .3 2.5.5 3 .4-.1.5-.4.7-.8.1 1.6 0 6-3.5 6.9a33.9 33.9 0 01-6.5-10 31 31 0 005.7 10.8c-1.7 3.8-6 1.3-7.6-.5zm12.1 3.8c0-2.6 1.8-5.7 3.6-5.7 1.7 0 3 2.2 2.8 5.7 0 3.4-1.6 5.7-3 5.7s-3.5-2.8-3.4-5.7zm-1.4 13c0-.5 0-.6-.4-.8-.3 1-.6 2-1 2.6 0-.4 0-.7-.3-1l-1.5 2.4c0-.5 0-1-.2-1-.5.7-1 1.3-1.7 1.8.2-.6 0-.8 0-1-.7.5-1 1.2-1.9 1.7.1-.5.2-1 0-1.2-.4.2-.7 1-1.7 1.5v-1c-.9 0-1.4.6-2 .9v-2.5l-.7.7c-.2-1 0-2 .3-2.8-.2-.4-.5 0-1 .4l.6-2.4c-.3-.3-.6.3-1 .6.3-1.3.7-2 1-2.5-.4-.4-.7 0-1 .2.3-1 .8-1.5 1.2-2-.2-.2-.4-.5-1-.1a4 4 0 011.5-1.6c-.4-.5-.7-.2-1-.2.5-.8 1.2-1.2 1.8-1.8l-.7-.3c1.7-1.7 6-4.2 7.5-.7a34.2 34.2 0 00-5.7 10.8 34 34 0 016.6-10c3.3 1 3.5 5.4 3.4 7 0-.3-.4-.6-.7-.7 0 .5.1 1.9-.4 3zm2.6-6.4c.3-1.8 9.1 8.5 7.2 8.7-5.2 0-8-4-7.2-8.7zm19.7 10.9c-2 2.4-7.8 3.3-10.5-1.3-.6-2.8 11.5-1 10.5 1.3zm10.4-9.6c.8 1.4.5 4.9-3 7.3-2.8 1.6-5.7 1.4-6.6.3-1-1.7.3-4.4 2.7-6.4 2-2 5.8-2.7 7-1.2zm-12.7 2.8c-1.7 2.6-5.5 3-8.5 1s-4-5.6-2.4-8.2c1.8-2.6 5.5-3 8.5-1 3 1.9 4.1 5.6 2.4 8.2zm18.6-10.8c0 3-2.5 6.2-3.5 6.2-1.3 0-2.3-3.8-2.3-6.3 0-2.4.7-6 2-6 1.2 0 3.8 3 3.8 6zm-13.2-6.2c3.1 0 5.7 2.8 5.7 6.3 0 3.4-2.5 6.2-5.8 6.2-3.2 0-5.7-2.8-5.7-6.2 0-3.5 2.6-6.3 5.7-6.3zm4.5-8.7c3.6 2.7 3.7 6.3 2.8 7.7-1.3 1.4-5.4.3-7.7-1.7-2.4-2.2-4-4.6-2.7-6.2 1-1 5-1.7 7.6.2zm-7.8-2.3c1 2.3-11.2 4-10.5 1.3 2.7-4.6 8.5-3.8 10.5-1.3z" class="st12" opacity=".5"/>
+  <path fill="#fff" d="M140.3 236.8v5.2h-1.6c-.5 0-.8-.1-1-.3-.3-.3-.4-.6-.4-1a1.1 1.1 0 01.7-1.1 1 1 0 01-.6-.5l-.2-.8c0-.5.1-.8.4-1 .2-.4.6-.5 1-.5h1.6zm-.6 3h-.9a.7.7 0 00-.5.2c-.2.2-.2.4-.2.6l.1.6.6.3h1zm0-.6v-1.7h-1c-.2 0-.4 0-.5.2-.2.2-.2.4-.2.7 0 .6.2 1 .7 1zm-7.5-.2c0-.7.2-1.3.5-1.7.3-.4.7-.6 1.3-.6.5 0 1 .2 1.2.6.4.4.5.9.5 1.6v1c0 .7 0 1.2-.5 1.6a1.5 1.5 0 01-1.2.6c-.6 0-1-.2-1.3-.6-.3-.4-.5-1-.5-1.6zm.7.9c0 .5 0 1 .2 1.2.2.2.5.4 1 .4l.7-.4c.2-.3.3-.7.3-1.2v-1c0-.5 0-1-.3-1.2a1 1 0 00-.8-.4 1 1 0 00-.8.4c-.2.3-.3.7-.3 1.2zm-5.8-1c0-.6.2-1.2.5-1.6.3-.4.7-.6 1.3-.6.5 0 1 .2 1.2.6.4.4.5.9.5 1.6v1c0 .7 0 1.2-.5 1.6a1.5 1.5 0 01-1.2.6c-.6 0-1-.2-1.3-.6-.3-.4-.5-1-.5-1.6zm.7 1c0 .5 0 1 .2 1.2.2.2.5.4 1 .4l.7-.4c.2-.3.2-.7.2-1.2v-1c0-.5 0-1-.2-1.2a1 1 0 00-.8-.4 1 1 0 00-.9.4l-.2 1.2zm-5.4 1.6h1.4v-4.7h.7v4.7h1.2v.5h-3.4zm-3.7-3.4c0 .3.1.5.3.6.1.2.3.3.7.4l1 .4a1.4 1.4 0 01.5 1.2c0 .4-.2.7-.5 1a1.5 1.5 0 01-1 .3l-.9-.1a1.4 1.4 0 01-.5-.6 2 2 0 01-.2-.8h.7c0 .3 0 .6.2.7.1.2.3.3.7.3.2 0 .4 0 .6-.2l.2-.6a.7.7 0 00-.2-.6 2 2 0 00-.8-.4c-.5-.2-.9-.3-1-.6a1.4 1.4 0 01-.4-1c0-.4.1-.7.4-1 .3-.2.6-.3 1.1-.3h1a1.5 1.5 0 01.7 1.5h-.7c0-.3 0-.6-.2-.7a1 1 0 00-.8-.3 1 1 0 00-.7.2 1 1 0 000 .6zm-4.7 1h1.8v-1.6h-2v-.6h2.7v5.2h-2.8v-.5h2.1v-1.7H114zm-2.5-1.7h-2v-.6h2.7v5.2h-.7zm-20.2 5v-2.1h.6v2.7h-5.2v-.7zm-1.8-6.1v1.8h1.8v-2h.6v2.7h-5.2V236h.5v2H89v-1.7zm2.4-1.8h-5.2v-1.3c0-.6.2-1 .6-1.4.3-.3 1-.5 1.5-.5h1c.6 0 1.1.2 1.5.5.4.4.6.8.6 1.5zm-4.7-.7h4.1v-.5c0-.5 0-.8-.4-1-.2-.3-.6-.4-1-.4h-1c-.6 0-1 0-1.2.4-.3.2-.4.5-.4.9zM66 248.2v.6h-4.3l.5 1h-.6l-.7-1.5v-.1zm15-1.2v3h-.3l-2-1.4-.7-.5-.6-.1c-.3 0-.5 0-.7.2-.2 0-.3.3-.3.5l.3.6.8.2v.6c-.5 0-.9-.1-1-.4-.5-.2-.6-.6-.6-1s.1-.8.3-1a1.4 1.4 0 011-.3c.6 0 1.2.2 2 .8l1.4 1v-2.1zm-2.8-84.4v-.3c0-.3 0-.5-.3-.6-.2-.2-.4-.2-.6-.2-.7 0-1 .2-1 .7 0 .2.1.3.3.5a1 1 0 00.6.2v.6c-.4 0-.7-.1-1-.4-.3-.2-.4-.6-.4-1s.1-.7.3-1c.3-.2.7-.3 1.2-.3a1.3 1.3 0 011.1.7c.2-.5.6-.7 1.2-.7.5 0 .8 0 1 .3.4.3.5.6.5 1 0 .5 0 .8-.4 1-.2.3-.6.4-1 .4v-.6c.3 0 .5 0 .6-.2.2-.1.3-.3.3-.5a.7.7 0 00-.3-.6l-.7-.2c-.6 0-1 .3-1 .9v.3zm.7-5.5c.3.2.4.5.4.9 0 .3 0 .7-.4.9-.4.2-.8.3-1.3.3-.6 0-1-.1-1.3-.4-.4-.2-.5-.6-.5-1s.2-.7.6-1a3 3 0 011.5-.4h.2c.6 0 1 0 1.4.2.4 0 .7.2 1 .3l.4.7.1 1h-.5v-.2c0-.4-.2-.7-.4-1-.3-.2-.7-.3-1.3-.3zm0 .8a.7.7 0 00-.3-.5c-.2-.1-.3-.3-.5-.3h-.4c-.4 0-.8 0-1 .2-.3 0-.4.3-.4.5 0 .3 0 .4.3.6l1 .2c.2 0 .5 0 .7-.2.2-.2.4-.3.4-.5zm3.8 48.6h3.7c.5 0 .8.2 1.1.5.3.2.4.7.4 1 0 .6 0 1-.4 1.3-.3.3-.6.4-1 .4h-3.8v-.6h3.6c.4 0 .6 0 .8-.3.2-.1.3-.3.3-.7 0-.3 0-.6-.3-.7l-.8-.2h-3.6zm3.8-4c-.2 0-.4 0-.5.3-.2 0-.3.3-.5.7l-.4.9-.5.4H84c-.4 0-.7 0-1-.3-.3-.3-.4-.6-.4-1s0-.6.2-1a1.4 1.4 0 01.6-.4c.2-.2.5-.2.8-.2v.6c-.4 0-.6 0-.8.3a1 1 0 00-.3.7c0 .2.2.4.3.5.1.2.3.3.6.3l.6-.3a2 2 0 00.3-.7c.2-.5.4-1 .7-1a1.4 1.4 0 011-.4c.4 0 .7 0 1 .4.2.3.3.6.3 1s0 .7-.2 1a1.5 1.5 0 01-1.4.8v-.7c.4 0 .6 0 .8-.3.2-.2.3-.4.3-.7 0-.3 0-.5-.3-.7a1 1 0 00-.6-.1zm1.4-2.2h-5.2v-1.5c0-.4.1-.8.3-1 .3-.3.6-.4 1-.4a1.1 1.1 0 011.1.7c0-.3.2-.5.5-.6.2-.2.5-.2.8-.2.4 0 .8 0 1 .4.3.2.5.6.5 1zm-3-.7v-.8a.7.7 0 00-.2-.6 1 1 0 00-.7-.2l-.6.2-.2.6v.8zm.5 0h2v-.8c0-.3-.2-.5-.3-.6a1 1 0 00-.7-.3c-.7 0-1 .3-1 .8z" class="st12"/>
+  <path fill="#fff" d="M327.8 240.5h1.3v-3.1h1v7.4H328c-.7 0-1.2-.2-1.6-.6-.4-.3-.5-1-.5-1.6 0-.5 0-1 .2-1.2.2-.4.5-.6 1-.8l-1.5-3.1v-.1h1zm1.3.7h-1c-.5 0-.8 0-1 .4-.3.2-.4.5-.4 1 0 1 .4 1.4 1.3 1.4h1zm-8.9-3.8l.1.6c.4-.5.8-.7 1.3-.7s1 .2 1.1.4c.3.3.5.7.5 1.2 0 .6-.2 1-.6 1.3-.4.4-.9.5-1.6.6h-.7v.5c0 .4.1.6.3.7.1.2.3.3.7.3l.6-.3c.2-.2.3-.3.3-.6h1c0 .3-.2.5-.4.8a1.7 1.7 0 01-.7.6l-.9.2c-.5 0-1-.1-1.3-.4-.3-.3-.4-.7-.4-1.2v-3c0-.3 0-.7-.2-1v-.1zm1.2.7c-.2 0-.4 0-.6.2-.2 0-.4.3-.4.5v1.3h.5a1.7 1.7 0 001-.3c.2-.2.4-.5.4-.8l-.2-.7zm-7.5.7a.7.7 0 00.2.5l.8.5a5.6 5.6 0 011 .5l.5.5.1.7c0 .4 0 .8-.5 1-.3.4-.7.5-1.2.5-.6 0-1-.2-1.3-.5-.3-.3-.5-.7-.5-1.2h1l.1.7c.2 0 .4.3.7.3l.6-.3c.2-.1.2-.3.2-.5v-.5l-.9-.4c-.7-.3-1.2-.5-1.4-.8-.2-.2-.3-.5-.3-1 0-.4.1-.8.4-1a2 2 0 011.4-.5c.5 0 1 .2 1.3.5.4.4.6.7.6 1.3h-.9c0-.4 0-.6-.3-.7a1 1 0 00-.7-.3c-.4 0-.6 0-.7.2a.7.7 0 00-.2.5zm-7.6 1c0-.8 0-1.4.4-2 .4-.3.8-.5 1.3-.5.6 0 1 .2 1.3.6v-2.6h1v7.6h-.9v-.6c-.4.5-.8.7-1.3.7-.7 0-1-.2-1.4-.6-.3-.4-.4-1-.4-2zm.8.6c0 .6.1 1 .3 1.4.2.3.5.4 1 .4.4 0 .7-.2 1-.6v-3a1 1 0 00-1-.5c-.5 0-.8 0-1 .4-.2.3-.3.8-.3 1.4zm-7.5-.5c0-1 .1-1.5.4-2 .3-.4.7-.6 1.3-.6.6 0 1 .3 1.3.8v-.7h1v7.8h-1v-3a1.4 1.4 0 01-1.2.8c-.7 0-1-.2-1.4-.6-.3-.5-.5-1-.5-2zm.8.5c0 .7.1 1 .3 1.4.2.3.5.4 1 .4.4 0 .7-.2 1-.7v-2.6c-.3-.5-.6-.8-1-.8a1 1 0 00-1 .4c-.2.3-.3.7-.3 1.4zm-5.5-3.1c.7 0 1.2.2 1.5.6.4.4.6 1 .6 1.8v.7a3.1 3.1 0 01-.5 2c-.4.4-.9.6-1.6.6-.6 0-1-.2-1.4-.6-.3-.4-.5-1-.5-2v-.5h3v-.1c0-.6 0-1-.3-1.3-.2-.3-.5-.4-.9-.4h-.7a1.7 1.7 0 00-.5.6l-.5-.6c.3-.5 1-.8 1.8-.8zm0 5c.4 0 .7-.2 1-.4l.2-1.2H294a2 2 0 00.3 1.2c.2.2.4.4.7.4zm-6.8-.2h.4c.5 0 .8-.3 1-.8v-4h1v5.6h-1v-.5c-.3.4-.6.6-1 .6h-.4zm-4.7 0h.4c.5 0 .8-.3 1-.8v-4h.8v5.6h-.8v-.5c-.3.4-.6.6-1 .6h-.4zm-4-3.2l-1 4h-1l2-6.3a2.4 2.4 0 01.4-1c.3-.3.6-.4 1-.4h.4v.8h-.2c-.3 0-.5 0-.7.2l-.3.6-.2.7 1.6 5.4h-1zm-9.3 1.4v-3h1v7.5h-2.5c-.7 0-1.2-.2-1.6-.6a2.3 2.3 0 01-.6-1.6c0-.8.2-1.3.5-1.7.4-.3 1-.6 1.6-.6zm0 .8h-1.5c-.4 0-.7 0-1 .4-.2.2-.3.6-.3 1 0 .5.1.8.4 1 .2.4.5.5 1 .5h1.3zm-7.4 3.3l.1-.4.4-.2c.2 0 .3 0 .4.2l.1.4v.3c-.2.2-.3.2-.5.2 0 0-.3 0-.4-.2a.5.5 0 010-.3zm0-7h1v5.5h-1zm-8 2.9v-3h1v7.5h-2.3a2 2 0 01-1.6-.6 2.3 2.3 0 01-.6-1.6c0-.8.2-1.3.6-1.7.3-.3 1-.6 1.5-.6zm0 .8h-1.3c-.4 0-.8 0-1 .4-.2.2-.3.6-.3 1 0 .5.1.8.3 1 .3.4.6.5 1 .5h1.4zm-7.2 3.3l.1-.4.4-.2c.2 0 .3 0 .4.2l.1.4v.3c-.2.2-.3.2-.5.2s-.3 0-.4-.2zm0-7h1v5.5h-1zm-4.8.7c-.3 0-.6 0-.7.3a1 1 0 00-.3.7h-.9c0-.5.2-1 .6-1.3.3-.3.8-.5 1.3-.5a2 2 0 011.5.6c.4.5.6 1 .6 2v.6c0 .8-.2 1.4-.6 1.9-.3.4-.8.6-1.5.6-.6 0-1-.2-1.4-.5-.3-.4-.5-1-.5-1.5h1c0 .4 0 .7.2 1 .1 0 .4.3.7.3.4 0 .7-.2 1-.5l.2-1.2v-.7c0-.7 0-1.2-.3-1.4-.2-.3-.5-.4-1-.4zm-4.3 2.4a3 3 0 01-.6 1.8 2 2 0 01-1.5.7 2 2 0 01-1.6-.7 3 3 0 01-.6-1.8v-.6c0-.8.3-1.4.6-2a2 2 0 011.6-.6 2 2 0 011.5.7 2.8 2.8 0 01.6 1.8zm-.9-.6c0-.6 0-1-.3-1.3a1 1 0 00-1-.5c-.7 0-1 .5-1.2 1.7v.6c0 .6.2 1 .4 1.3a1 1 0 001 .6c.2 0 .6-.2.8-.6.2-.3.3-.7.3-1.3zm-10 .6a5.6 5.6 0 01-.7 2.7 5 5 0 01-7 2 5.6 5.6 0 01-2.4-4.7c0-1 .2-1.8.7-2.6a5 5 0 014.3-2.7c1 0 2 .2 2.6.7a5 5 0 012 2 5.6 5.6 0 01.5 2.6zm-.8 0c0-.8-.2-1.5-.6-2.2a4.2 4.2 0 00-3.7-2.3c-.7 0-1.4.2-2 .6a4.2 4.2 0 00-1.6 1.7 4.6 4.6 0 000 4.5 4.2 4.2 0 003.6 2.2 4.2 4.2 0 003.7-2.2 5 5 0 00.6-2.3zm-6.5-1c0-.6.2-1.2.6-1.6a2.4 2.4 0 011.8-.6c.7 0 1.3.3 1.7.8a3 3 0 01.7 2v.8c0 .9-.2 1.5-.7 2a2.3 2.3 0 01-1.7.8c-.8 0-1.4-.2-1.8-.6a2.2 2.2 0 01-.6-1.6h1c0 .4.1.8.4 1 .2.2.5.3 1 .3.4 0 .8-.2 1-.5.3-.4.4-.8.4-1.4v-.8c0-.6 0-1-.4-1.4-.2-.3-.6-.4-1-.4-.5 0-.8 0-1 .2-.3.2-.4.6-.4 1zm-10.5-2.1h4.2v.7l-2 2.8-.8 1v1l.1.9c.2.2.5.3.7.3.5 0 .7 0 1-.3l.2-1.2h1a2.4 2.4 0 01-.6 1.7 2 2 0 01-1.5.6c-.6 0-1-.2-1.4-.5a2 2 0 01-.5-1.5c0-.7.3-1.6 1.1-2.6l1.6-2.1h-3zm-6.4 3c0-1 .1-1.8.4-2.3a2 2 0 011.5-.8c.7 0 1.2.3 1.5.8.4.5.5 1.3.5 2.3v1.3a5 5 0 01-.4 2.4 1.6 1.6 0 01-1.5.8c-.7 0-1.2-.3-1.5-.7a4.5 4.5 0 01-.5-2.3zm1 1.4l.1 1.8c.2.4.5.5.8.5.4 0 .7-.1 1-.5l.1-1.7v-1.4c0-.8 0-1.4-.2-1.7-.2-.4-.5-.6-.9-.6-.3 0-.6.2-.8.5l-.2 1.7zm-7.9-4.4h4.2v.7l-2.2 2.8-.7 1v1l.1.9c.2.2.5.3.7.3.4 0 .7 0 1-.3.2-.3.3-.7.3-1.2h.8a2.4 2.4 0 01-.5 1.7 2 2 0 01-1.5.6c-.6 0-1-.2-1.4-.5a2 2 0 01-.5-1.5c0-.7.3-1.6 1.1-2.6l1.6-2.1h-3zm-6.5 3c0-1 .1-1.8.5-2.3.3-.5.7-.8 1.4-.8s1.2.3 1.5.8c.3.5.5 1.3.5 2.3v1.3c0 1 0 1.9-.5 2.4-.3.5-.8.8-1.5.8-.6 0-1-.3-1.4-.7a4.5 4.5 0 01-.5-2.3zm1 1.4l.1 1.8c.2.4.5.5.8.5.4 0 .7-.1 1-.5l.2-1.7v-1.4c0-.8-.2-1.4-.3-1.7-.2-.4-.5-.6-.9-.6-.3 0-.6.2-.8.5l-.2 1.7z" class="st12" opacity=".5"/>
+  <path fill="#3d3f38" d="M217.3 219.2v.6h1.3v.3h-3.2v-1c0-.2 0-.4.2-.6l.7-.2h.6l.3.5 1.4-.6v.4zm-.3.6v-.6l-.2-.4a.8.8 0 00-.5-.1c-.4 0-.6.2-.6.5v.6zm.3-3h1.3v.5h-3.2v-1c0-.4 0-.6.2-.8l.7-.2c.4 0 .6 0 .8.2.2.2.2.4.2.7zm-.3 0v-1a.7.7 0 00-.6-.1h-.5l-.2.5v.6zm1.7-4.3v1.9h-.3l-1.3-1-.4-.3h-.4a.7.7 0 00-.5 0 .3.3 0 000 .4l.1.4h.4v.5c-.3 0-.5 0-.7-.2a1 1 0 01-.3-.7c0-.3.1-.5.3-.6l.6-.2c.4 0 .7 0 1.1.5l1 .7v-1.4h.3zm-1.3-1.6v1h-.3v-1zm-1.2-2.6l.5.2.3.3c0-.2.1-.3.3-.4h.5c.2 0 .5 0 .7.2l.2.6c0 .3 0 .5-.3.6 0 .2-.4.2-.7.2a1 1 0 01-.4 0l-.4-.4-.2.3h-.5l-.7-.1a.8.8 0 01-.2-.6c0-.3.1-.4.3-.6l.6-.2zm1.6.4h-.5l-.2.5s0 .3.2.3l.5.2c.1 0 .3 0 .4-.2l.2-.3-.2-.4a.7.7 0 00-.4-.1zm-1.6 0a.7.7 0 00-.4.2.3.3 0 000 .3.3.3 0 000 .3.7.7 0 00.4 0h.5v-.6a.7.7 0 00-.5-.1zm1-3.2c.5 0 1 .2 1.1.3.3.2.4.4.4.7a.7.7 0 01-.4.6c-.2.2-.5.2-1 .2h-.5a2 2 0 01-1-.2c-.4-.1-.5-.3-.5-.7 0-.2.1-.4.4-.6l1-.2zm-.5.5h-.8l-.2.4c0 .2 0 .4.2.4l.7.2h.7l.8-.2c.2 0 .3-.2.3-.3 0-.2 0-.3-.3-.4l-.8-.1zm2-9.2v1.8h-.3l-1.3-1-.4-.3h-.4a.7.7 0 00-.5 0 .3.3 0 000 .4l.1.4h.4v.5c-.3 0-.5 0-.7-.2a1 1 0 01-.3-.7c0-.2.1-.5.3-.6l.6-.2c.4 0 .7.2 1.1.5l1 .7v-1.3zm-1.5-2.7c.5 0 1 0 1.1.2.3.2.4.4.4.7a.7.7 0 01-.4.6c-.2.2-.5.3-1 .3h-.5a2 2 0 01-1-.3c-.4 0-.5-.3-.5-.6s.1-.5.4-.6c.2-.2.5-.3 1-.3zm-.5.4h-.8l-.2.5c0 .2 0 .3.2.3l.7.2h.7l.8-.1c.2-.1.3-.2.3-.4s0-.3-.3-.4h-.8zm2.2-1.5v.4l-3.5-1.2v-.3zm-.2-3.8v1.8h-.3l-1.3-1-.4-.2-.4-.1a.7.7 0 00-.5 0 .3.3 0 000 .4l.1.4h.4v.5c-.3 0-.5 0-.7-.2a.9.9 0 01-.3-.7l.3-.6.6-.2c.4 0 .7.2 1.1.5l1 .7v-1.3zm0-2.1v.4H216l.3.7h-.4l-.4-1v-.1zm4 32.7h1.1v.4h-3v-1c0-.3 0-.5.2-.7.1-.2.4-.3.6-.3l.8.2c.2.2.3.5.3.7zm-.5 0v-1a.7.7 0 00-.6-.2c-.2 0-.4 0-.5.2l-.2.4v.6zm-1.6-4h.3v.2c0 .3.1.5.3.6.2.2.4.2.8.3a.7.7 0 01-.3-.6.7.7 0 01.3-.6l.8-.2c.3 0 .6 0 .8.3.2 0 .3.3.3.6s0 .5-.4.7l-1 .2c-.5 0-.8 0-1-.2a.7.7 0 01-.7-.4c-.2-.2-.2-.4-.2-.7zm1.4.6l.2.3a.7.7 0 00.3.2h.2c.2 0 .4 0 .6-.2.2 0 .3-.2.3-.3l-.2-.3-.6-.2a1 1 0 00-.6.2zm.7-3.3v-.3h.4v.3h.7v.4h-.7v1.2h-.3l-2-1.2v-.4zm0 1.2v-.8h-1.5zm-2-3l2.5-1-2.6-.7v-.6h3.2v.5h-1l-1.4-.1 2.5.9v.3l-2.5.8h2.5v.4h-3.2zm3.1-4.5v.4h-2.7l.3.7h-.4l-.4-1v-.1zm-1.6-1.7l-1.6-.2v-1.4h.4v1h1a.7.7 0 01-.3-.2.7.7 0 01.3-.6c.2-.2.5-.3.8-.3.3 0 .6 0 .8.3.2 0 .3.3.3.6l-.2.6a1 1 0 01-.7.3v-.4c.2 0 .3 0 .4-.2 0 0 .2-.1.2-.3l-.2-.4h-1c-.3 0-.3.3-.3.4v.4h.2zm1.5-2.6l-.2-.1v-.4h.3v.4a.2.2 0 01-.2 0zm-1.3-3.4c.5 0 1 0 1.1.2.3.2.4.4.4.7a.7.7 0 01-.4.6c-.2.2-.5.3-1 .3h-.5a2 2 0 01-1-.3c-.4-.1-.5-.3-.5-.6s.1-.5.4-.7l1-.2zm-.5.4h-.8l-.2.5c0 .2 0 .3.2.3l.7.2h.7c.4 0 .6 0 .8-.2.2 0 .3-.1.3-.3 0-.2 0-.3-.3-.4a2 2 0 00-.7-.1zm.5-3h1.1c.3.3.4.5.4.8a.7.7 0 01-.4.6c-.2.2-.5.2-1 .2h-.5a2 2 0 01-1-.2c-.4-.1-.5-.3-.5-.7 0-.2.1-.4.4-.6l1-.2zm-.5.3h-.8l-.2.4c0 .3 0 .4.2.4l.7.2h.7l.8-.2c.2 0 .3-.2.3-.3 0-.2 0-.3-.3-.4l-.7-.1zm-1-4.8v.9h3v.4h-3v.8h-.3v-2zm0-3v1h3v.4h-3v.8h-.3v-2h.3zm0-2.8v1h3v.3h-3v.9h-.3v-2.1h.3zm-19.3 9.7h-.3c-2 0-2.8 1-3.4 2 0-.2 0-.5-.5-.6 0-.6-.4-.7-.7-.8 0 0-.4-.6-.8-.5-.2-.3-.4-.5-.8-.4-.3-.3-.6-.3-.8-.2-.4-.4-.7-.2-1 0-.4-.3-1-.1-.8.7-.5.2-.4.9-.4 1 0 0-.3.2-.2.7-.3.3-.2.6 0 1-.4.3 0 .6 0 1-.2.4 0 .5 0 .7 0 .5.2.7.5 1v.3c.4.8 1.4 1.2 1.8 1.3a3 3 0 00-1.8 1.4v.3c-.3.3-.5.4-.4 1 0 .2-.3.3-.2.8v.9c0 .4-.2.7 0 1 0 .5.1.6.3.7 0 0 0 .7.4 1 0 .8.4 1 1 .8.1 0 .3.3.8 0 .2 0 .5 0 .8-.4.4 0 .6 0 .8-.3.5 0 .7-.4.8-.6.3 0 .6-.1.7-.7.4-.1.4-.4.5-.8.6 1.2 1.5 2 3.4 2l.3.2a3.3 3.3 0 005 .7l1.6-.5a3.8 3.8 0 003-2.4c.4-.7 1-1.3 1.2-2.2 1-1 1.2-1.8 1.2-2.8 0-1-.3-2-1.2-2.7-.3-1-.8-1.6-1.3-2.3 0-.4-1-2-3-2.3-.4-.2-.8-.4-1.5-.5a3.2 3.2 0 00-5 .5zm-.4.9c.8 0-2.7 4.2-2.9 3.5-.3-2 1-3.6 3-3.5zm4 1.8c.7 1 .2 2.6-1 3.4-1.2.8-2.7.6-3.4-.5-.7-1-.3-2.5 1-3.3 1.2-.8 2.7-.6 3.4.4zm-12.4 3l.4-.2-.8-.7h.4a2.8 2.8 0 01-.5-.8c.2.2.2 0 .3 0l-.5-.8c.2 0 .3.2.4 0l-.3-1c0 .2.2.4.3.3l-.2-1c.2.2.3.4.4.2 0-.3-.2-.7 0-1.1l.1.2v-1c.3.2.5.4 1 .4v-.4l.6.6v-.5l.7.7s.1-.2 0-.4l.7.8.1-.5.6 1 .1-.4c.2.2.3.7.4 1 .2 0 .2-.1.2-.3.2.4.1 1 .2 1.2.2 0 .2-.1.3-.3 0 .7 0 2.4-1.4 2.8-.7-.7-1.6-2-2.7-4 .6 1.6 1.3 3 2.3 4.3-.7 1.5-2.4.5-3-.2zm5 1.4c0-1 .7-2.3 1.4-2.3s1.2 1 1.2 2.3c0 1.4-.7 2.3-1.3 2.3-.5 0-1.4-1.1-1.4-2.3zm-.6 5.2c0-.1 0-.2-.2-.2 0 .3-.2.7-.4 1v-.4l-.7 1v-.5a2.8 2.8 0 01-.7.8v-.4l-.8.7v-.5c-.2 0-.3.4-.7.6v-.4c-.4 0-.6.2-.8.4v-1l-.3.2a2 2 0 01.1-1.1c0-.2-.2 0-.3.2l.1-1c0-.1-.2 0-.3.2 0-.5.2-.8.3-1 0-.2-.2 0-.4 0l.5-.7c0-.1 0-.2-.3 0a1.7 1.7 0 01.5-.7c0-.2-.3-.1-.4-.1l.8-.7-.4-.1c.7-.7 2.5-1.7 3.1-.3-1 1.2-1.7 2.7-2.3 4.4 1-2.1 2-3.4 2.6-4 1.4.3 1.5 2 1.4 2.7l-.2-.3c0 .3 0 .8-.2 1.2zm1-2.5c.2-.7 3.7 3.4 3 3.5-2 0-3.3-1.5-3-3.5zm8 4.4c-.8 1-3 1.3-4.2-.5-.3-1.2 4.7-.4 4.2.5zm4.2-4c.4.7.3 2-1 3-1.3.7-2.5.6-2.8.2-.5-.7 0-1.8 1-2.6 1-.7 2.4-1 2.8-.5zm-5 1.2c-.8 1-2.3 1.3-3.6.5-1-.8-1.6-2.3-.9-3.4.7-1 2.2-1.2 3.5-.4 1.1.8 1.6 2.3 1 3.3zm7.4-4.3c0 1.3-1 2.5-1.4 2.5-.5 0-1-1.6-1-2.5 0-1 .4-2.5 1-2.5.4 0 1.4 1.3 1.4 2.5zm-5.3-2.5c1.2 0 2.3 1 2.3 2.5 0 1.4-1 2.5-2.3 2.5a2.5 2.5 0 01-2.4-2.5c0-1.4 1-2.5 2.4-2.5zm1.8-3.5c1.5 1 1.5 2.5 1.1 3-.5.6-2 .2-3-.6-1-1-1.7-2-1.2-2.5s2-.7 3.1 0zm-3-1c.3.9-4.6 1.7-4.4.5 1.2-2 3.5-1.5 4.3-.5z" class="st16"/>
+  <path fill="#091309" d="M313.4 117.7h10v9.5h-10z"/>
+  <path d="M318.6 63.7h10v9.5h-10z"/>
+  <circle cx="319.1" cy="184.3" r="13.5" fill="#9a916c"/>
+  <circle cx="319.1" cy="184.3" r="11.5" fill="#030302"/>
+  <g style="line-height:1.25">
+    <path fill="#fff" stroke-width=".1" d="M321.7 184h2.3v4.6q-1 .7-2 1-1.2.4-2.4.4-1.7 0-3-.7-1.4-.8-2.2-2-.7-1.4-.7-3 0-1.7.7-3 .8-1.3 2.2-2 1.3-.8 3-.8 1.4 0 2.6.5 1.2.5 2 1.4l-1.7 1.5q-1.1-1.2-2.8-1.2-1 0-1.8.4-.8.5-1.3 1.3-.4.8-.4 1.9 0 1 .4 1.8.5.8 1.3 1.3.8.4 1.8.4 1.1 0 2-.5z" aria-label="G" font-family="Montserrat, sans-serif" font-size="15.7" font-weight="700" letter-spacing="0" style="text-align:center" text-anchor="middle" word-spacing="0"/>
+  </g>
+  <path fill="none" stroke="#0b0b0b" stroke-linecap="round" stroke-width="4" d="M318.6 157.4l.1 17.8"/>
+  <circle cx="289.5" cy="220" r="13.5" fill="#9a916c"/>
+  <circle cx="319.5" cy="220" r="13.5" fill="#9a916c"/>
+  <circle cx="349.5" cy="220" r="13.5" fill="#9a916c"/>
+  <circle cx="289.5" cy="220" r="11.5" fill="#fcfcfb"/>
+  <circle cx="319.5" cy="220" r="11.5" fill="#fcfcfb"/>
+  <circle cx="349.5" cy="220" r="11.5" fill="#fcfcfb"/>
+  <g stroke-width=".1" aria-label="13" font-family="Montserrat, sans-serif" font-size="16" font-weight="700" letter-spacing="0" style="line-height:1.25" text-anchor="middle" word-spacing="0">
+    <path d="M287.2 214.4v11.1h-2.6v-9h-2.2v-2.1zM294.4 219q1.5.2 2.3 1 .8.9.8 2.1 0 1-.5 1.8t-1.6 1.3q-1 .5-2.6.5-1.2 0-2.3-.3-1.2-.3-2-.9l1-2q.7.5 1.5.8.9.3 1.8.3 1 0 1.5-.4.6-.4.6-1 0-1.4-2.1-1.4h-1.2V219l2.3-2.6h-4.8v-2.1h7.9v1.7z" style="text-align:center"/>
+  </g>
+  <path fill="none" stroke="#fefefe" stroke-linecap="round" stroke-width="4" d="M302.4 248.9l-8.9-19.7m38.2 20l-8.2-20m24.8 19.8l1.4-19.4"/>
+  <g stroke-width=".1" aria-label="14" font-family="Montserrat, sans-serif" font-size="16" font-weight="700" letter-spacing="0" style="line-height:1.25" text-anchor="middle" word-spacing="0">
+    <path d="M316 214.4v11.1h-2.5v-9h-2.3v-2.1zM328.3 223.2h-1.8v2.3H324v-2.3h-6v-1.7l5.2-7.1h2.8l-5 6.7h3v-2h2.5v2h1.8z" style="text-align:center"/>
+  </g>
+  <g stroke-width=".1" aria-label="15" font-family="Montserrat, sans-serif" font-size="16" font-weight="700" letter-spacing="0" style="line-height:1.25" text-anchor="middle" word-spacing="0">
+    <path d="M346.9 214.4v11.1h-2.6v-9H342v-2.1zM352.7 218.6q2.4 0 3.5 1 1.1.9 1.1 2.4 0 1-.5 1.9-.5.8-1.5 1.3t-2.6.5q-1.2 0-2.4-.3-1.1-.3-2-.9l1.1-2q.6.5 1.5.8.8.3 1.7.3 1 0 1.5-.4.6-.4.6-1 0-.8-.6-1.2-.6-.3-2-.3h-2.9l.6-6.3h6.8v2H352l-.2 2.2z" style="text-align:center"/>
+  </g>
+  <circle cx="258.8" cy="220" r="13.5" fill="#9a916c"/>
+  <circle cx="258.8" cy="220" r="11.5" fill="#fcfcfb"/>
+  <g stroke-width=".1" aria-label="12" font-family="Montserrat, sans-serif" font-size="16" font-weight="700" letter-spacing="0" style="line-height:1.25" text-anchor="middle" word-spacing="0">
+    <path d="M256.5 214.4v11.1H254v-9h-2.2v-2.1zM267 223.4v2.1h-8.6V224l4.3-4.1 1-1.1.2-1q0-.6-.4-1-.5-.3-1.4-.3-.7 0-1.3.2-.6.3-1 .9l-2-1.2q.7-1 2-1.5 1-.6 2.6-.6 1.2 0 2.1.4 1 .4 1.5 1.2.5.7.5 1.7 0 .9-.3 1.7-.4.8-1.5 1.8l-2.6 2.4z" style="text-align:center"/>
+  </g>
+  <path fill="none" stroke="#fefefe" stroke-linecap="round" stroke-width="4" d="M286 249.1l-20.6-21"/>
+  <path d="M343.4 279.7h10v9.5h-10zm-15 0h10v9.5h-10zm-30 0h10v9.5h-10zm255 0h10v9.5h-10zm-75 0h10v9.5h-10zm-75 0h10v9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="7.5" d="M558.6 284.1l-.3 78.8s1.5 19-18 18.8l-215.8.6c-21.6 0-21.1-19.6-21.1-19.6v-78.5"/>
+  <path fill="none" stroke="#00bd00" stroke-linecap="round" stroke-width="5" d="M558.6 284.2l-.4 78.7s1.6 18.9-18 18.8c-21.5-.1-215.7.6-215.7.6-21.5-.1-21-19.6-21-19.6v-78.6"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="7.5" d="M483.7 283.9l-.1 59.8s.9 14.4-10.6 14.3l-127.1.4c-12.7 0-12.4-14.8-12.4-14.8v-59.7"/>
+  <path fill="none" stroke="#e8d300" stroke-linecap="round" stroke-width="5" d="M483.7 283.9l-.1 59.8s.9 14.3-10.7 14.3c-12.7-.1-127 .4-127 .4-12.7 0-12.4-14.8-12.4-14.8v-59.7"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="7" d="M408.5 284.4V328c0 7.6-3.3 10.2-7.9 10.2l-45 .3c-5 0-7.5-4.2-7.7-10.6v-43.4"/>
+  <path fill="none" stroke="#fc511d" stroke-linecap="round" stroke-width="5" d="M408.5 284.4V328c-.2 5.5-3 10.4-7.6 10.4l-45.2.3c-5.1 0-7.8-3.6-7.8-10.8v-43.4"/>
+  <path fill="#40b040" fill-opacity=".5" d="M553.4 132.7h10v9.5h-10zm-75 0h10v9.5h-10zm-75 0h10v9.5h-10zm7.9-69h10v9.5h-10zm-7.9 54h10v9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="6.7" d="M408.9 137.4l7.4-69.2"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-width="5" d="M408.9 137.4l7.4-69.2"/>
+  <path fill="#40b040" fill-opacity=".5" d="M486.3 63.7h10v9.5h-10zm-7.9 54h10v9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="6.7" d="M484 137.6l7.2-69.6"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-width="5" d="M484 137.6l7.2-69.6"/>
+  <path fill="#40b040" fill-opacity=".5" d="M562.4 63.7h10v9.5h-10zm-9 54h10v9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="6.7" d="M558 137.6l10-69.5"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-width="5" d="M558 137.6l10-69.5"/>
+  <path fill="#40b040" fill-opacity=".5" d="M478.4 229.2h10v-9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6" stroke-width="6" d="M463.2 165.3l20.4 59.6"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2" d="M463.2 165.3l20.4 59.6"/>
+  <path fill="none" d="M476 184.3l1 1-3.2 2.9-1-1zM486.5 175l1 1-3.2 2.9-1-1z"/>
+  <path fill="#40b040" fill-opacity=".5" d="M478.4 187.2h10v-9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6" stroke-width="6" d="M473.4 172.2l10.7 11"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2" d="M473.4 172.2l10.7 11"/>
+  <path fill="#40b040" fill-opacity=".5" d="M553.4 229.2h10v-9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6" stroke-width="6" d="M537.5 165.5l21 59.4"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2" d="M537.5 165.5l21 59.4"/>
+  <path fill="none" d="M551.1 184.3l1 1-3.3 2.9-.9-1.1zM561.5 175l1 1.2-3.2 2.8-1-1z"/>
+  <path fill="#40b040" fill-opacity=".5" d="M553.4 187.2h10v-9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6" stroke-width="6" d="M548.4 172.2l10.7 11"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2" d="M548.4 172.2l10.7 11"/>
+  <path fill="#40b040" fill-opacity=".5" d="M403.4 229.2h10v-9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6" stroke-width="6" d="M390.2 170.7l18.4 54.2"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2" d="M389.2 168l19.4 56.9"/>
+  <path fill="none" d="M401 184.4l1 1-3.2 2.8-1-1zM411.6 175l1 1.2-3.3 2.8-.9-1z"/>
+  <path fill="#40b040" fill-opacity=".5" d="M403.4 187.2h10v-9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6" stroke-width="6" d="M398.4 172.2l10.7 11"/>
+  <path fill="none" stroke="#5a5a5a" stroke-linecap="round" stroke-linejoin="round" stroke-width="4.2" d="M398.4 172.2l10.7 11"/>
+  <path fill="#40b040" fill-opacity=".5" d="M351.4 63.7h10v9.5h-10zm15 0h10v9.5h-10zm14.9 0h10v9.5h-10zm15 0h10v9.5h-10zm45.1 0h10v9.5h-10zm15 0h10v9.5h-10zm14.9 0h10v9.5h-10zm30 0h10v9.5h-10zm46.1 0h10v9.5h-10zm29.9 0h10v9.5h-10zm15 0h10v9.5h-10zm14.3 0h10v9.5h-10zm-379.2 0h10v9.5h-10zm-60 0h10v9.5h-10zm15 0h10v9.5h-10zm14.9 0h10v9.5h-10zm15 0h10v9.5h-10zm-76.9 0h10v9.5h-10zm-60 0h10v9.5h-10zm15 0h10v9.5h-10zm14.9 0h10v9.5h-10zm15 0h10v9.5h-10zm184.1 0h10v9.5h-10zm-45 0h10v9.5h-10zm14.9 0h10v9.5h-10zm15 0h10v9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="7.5" d="M324 68.4h-43.4c-12.4 0-15 7-15 25.7 0 18.8.5 28.4 14.7 28.4h38.3"/>
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-width="5" d="M324 68.4h-43.4c-12.4 0-15 7-15 25.7 0 18.8.3 28.2 14.5 28.3l38.5.1"/>
+  <path fill="#40b040" fill-opacity=".5" d="M403.4 147.7h10v9.5h-10zm0 15h10v9.5h-10z"/>
+  <g transform="scale(1.93986 -1.93986) rotate(-60.8 -156 -84)">
+    <path fill="#e60000" d="M18 221.3h-5.9a7 7 0 100 14.1h13.7a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4h-1.6a4.6 4.6 0 00-3 1.3z" opacity=".3"/>
+    <path fill="#e6e6e6" d="M18 221.3h-5.9a7 7 0 100 14.1h13.7a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4h-1.6a4.6 4.6 0 00-3 1.3z" opacity=".5"/>
+    <path fill="#d1d1d1" d="M18 221.3h3.1c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1h4.7a9.5 9.5 0 002.7-7c0-4.7-2.6-8.4-5.8-8.4h-1.5a4.6 4.6 0 00-3.2 1.3z" opacity=".9"/>
+    <path fill="#e60000" d="M18 221.3h3.1c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1h4.7a9.5 9.5 0 002.7-7c0-4.7-2.6-8.4-5.8-8.4h-1.5a4.6 4.6 0 00-3.2 1.3z" opacity=".7"/>
+    <path fill="#e60000" d="M18 221.3h3.1c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1h3.1a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4a4.6 4.6 0 00-3 1.3z" opacity=".3"/>
+    <ellipse cx="21.1" cy="228.4" fill="#e6e6e6" opacity=".3" rx="5" ry="7.1"/>
+    <ellipse cx="21.1" cy="228.4" fill="#e60000" opacity=".3" rx="5" ry="7.1"/>
+    <path fill="#666" d="M13.8 232l.9 1.2h6.4v-1h-3v-2.8l-4.3-4zM13.6 223.5v1.2l.5-.5 4 3.8v-3.6h3v-.9z"/>
+    <path fill="#fc511d" d="M18 221.3h-5.9a7 7 0 100 14.1h13.7a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4h-1.6a4.6 4.6 0 00-3 1.3z"/>
+    <path fill="#fff" d="M8.8 225l-.2-1.4a5.8 5.8 0 00-2.3 3.6l1.1-.3a3.8 3.8 0 011.4-1.8zM25 234.7h1.5a8.5 8.5 0 001.3-2.3h-1.5a8.5 8.5 0 01-1.3 2.3zM25.3 224.4l.3.8v.2a9.2 9.2 0 01.4 1.7 2 2 0 010 .3v1.4a9.6 9.6 0 01-.7 3.3H12.1a3.8 3.8 0 01-3.3-2l-1.5 1.2a5.7 5.7 0 004.9 2.8H24l-.5.5.7.3a9 9 0 002.5-6.6 10.2 10.2 0 00-1-4.5l-.5.5z" opacity=".5"/>
+  </g>
+  <path fill="#40b040" fill-opacity=".5" d="M403.4 234.7h10v9.5h-10zm0 15h10v9.5h-10zm0 15h10v9.5h-10z"/>
+  <g transform="rotate(-84.8 498.5 301.6)">
+    <use width="100%" height="100%" xlink:href="#c"/>
+    <use width="100%" height="100%" xlink:href="#d"/>
+    <use width="100%" height="100%" xlink:href="#e"/>
+    <use width="100%" height="100%" fill="#f5f5f5" xlink:href="#f"/>
+    <use width="100%" height="100%" fill="#f5f5f5" xlink:href="#g"/>
+    <use width="100%" height="100%" opacity=".3" xlink:href="#h"/>
+    <use width="100%" height="100%" opacity=".4" xlink:href="#i"/>
+    <use width="100%" height="100%" opacity=".3" xlink:href="#j"/>
+    <circle cx="675.5" cy="179.3" r=".9" fill="#fff" opacity=".3" transform="rotate(1)"/>
+    <use width="100%" height="100%" opacity=".5" xlink:href="#k"/>
+    <use width="100%" height="100%" opacity=".5" xlink:href="#l"/>
+  </g>
+  <g transform="rotate(-82.4 572.4 223.4)">
+    <use width="100%" height="100%" xlink:href="#c"/>
+    <use width="100%" height="100%" xlink:href="#d"/>
+    <use width="100%" height="100%" xlink:href="#e"/>
+    <use width="100%" height="100%" fill="#f5f5f5" xlink:href="#f"/>
+    <use width="100%" height="100%" fill="#f5f5f5" xlink:href="#g"/>
+    <use width="100%" height="100%" opacity=".3" xlink:href="#h"/>
+    <use width="100%" height="100%" opacity=".4" xlink:href="#i"/>
+    <use width="100%" height="100%" opacity=".3" xlink:href="#j"/>
+    <circle cx="675.5" cy="179.3" r=".9" fill="#fff" opacity=".3" transform="rotate(1)"/>
+    <use width="100%" height="100%" opacity=".5" xlink:href="#k"/>
+    <use width="100%" height="100%" opacity=".5" xlink:href="#l"/>
+  </g>
+  <g transform="rotate(-84.9 536.9 261)">
+    <use width="100%" height="100%" xlink:href="#c"/>
+    <use width="100%" height="100%" xlink:href="#d"/>
+    <use width="100%" height="100%" xlink:href="#e"/>
+    <use width="100%" height="100%" fill="#f5f5f5" xlink:href="#f"/>
+    <use width="100%" height="100%" fill="#f5f5f5" xlink:href="#g"/>
+    <use width="100%" height="100%" opacity=".3" xlink:href="#h"/>
+    <use width="100%" height="100%" opacity=".4" xlink:href="#i"/>
+    <use width="100%" height="100%" opacity=".3" xlink:href="#j"/>
+    <circle cx="675.5" cy="179.3" r=".9" fill="#fff" opacity=".3" transform="rotate(1)"/>
+    <use width="100%" height="100%" opacity=".5" xlink:href="#k"/>
+    <use width="100%" height="100%" opacity=".5" xlink:href="#l"/>
+  </g>
+  <path fill="#40b040" fill-opacity=".5" d="M478.4 147.7h10v9.5h-10zm0 15h10v9.5h-10zm75-15h10v9.5h-10zm0 15h10v9.5h-10z"/>
+  <g transform="matrix(.90217 1.71802 1.71802 -.90217 110.2 311)">
+    <path fill="#fadf47" d="M17.3 191h-6a7 7 0 100 14.1H25a9.6 9.6 0 002.8-7c0-4.7-2.7-8.4-6-8.4h-1.4a4.6 4.6 0 00-3.1 1.3z" opacity=".3"/>
+    <path fill="#e6e6e6" d="M17.3 191h-6a7 7 0 100 14.1H25a9.6 9.6 0 002.8-7c0-4.7-2.7-8.4-6-8.4h-1.4a4.6 4.6 0 00-3.1 1.3z" opacity=".5"/>
+    <path fill="#d1d1d1" d="M17.3 191h3c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1H25a9.6 9.6 0 002.7-7c0-4.7-2.6-8.4-5.8-8.4h-1.5a4.6 4.6 0 00-3.1 1.3z" opacity=".9"/>
+    <path fill="#fadf47" d="M17.3 191h3c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1H25a9.6 9.6 0 002.7-7c0-4.7-2.6-8.4-5.8-8.4h-1.5a4.6 4.6 0 00-3.1 1.3z" opacity=".7"/>
+    <path fill="#fadf47" d="M17.3 191h3c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1h3.2a9.6 9.6 0 002.7-7c0-4.7-2.6-8.4-5.8-8.4a4.6 4.6 0 00-3.1 1.3z" opacity=".3"/>
+    <ellipse cx="20.4" cy="198.1" fill="#e6e6e6" opacity=".3" rx="5" ry="7.1"/>
+    <ellipse cx="20.4" cy="198.1" fill="#fadf47" opacity=".3" rx="5" ry="7.1"/>
+    <path fill="#666" d="M13.9 202.9h6.5v-1h-3v-2.8l-4.3-4v6.6zM12.8 194.3l.5-.4 4.1 3.8v-3.6h3v-.9h-7.6z"/>
+    <path fill="#ffe800" d="M17.3 191h-6a7 7 0 100 14.1H25a9.6 9.6 0 002.8-7c0-4.7-2.7-8.4-6-8.4h-1.4a4.6 4.6 0 00-3.1 1.3z"/>
+    <path fill="#fff" d="M8 194.8l-.3-1.5a5.8 5.8 0 00-2.2 3.5l1-.2a3.7 3.7 0 011.5-1.9zM24.2 204.4h1.5A8.7 8.7 0 0027 202h-1.5a8.5 8.5 0 01-1.3 2.3zM24.5 194l.3.9v.2a10.9 10.9 0 01.4 1.7 1.8 1.8 0 010 .3v1.4a9.1 9.1 0 01-.7 3.3H11.3a3.8 3.8 0 01-3.3-2L6.4 201a5.7 5.7 0 005 2.7h11.9a6.5 6.5 0 01-.6.5l.7.3a9 9 0 002.4-6.5 10.2 10.2 0 00-1-4.6l-.4.6z" opacity=".5"/>
+  </g>
+  <g transform="matrix(.82622 1.75582 1.75582 -.82622 73.9 343)">
+    <path fill="#17ff8b" d="M18 250.4h-5.9a7 7 0 100 14.1h13.7a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4h-1.6a4.7 4.7 0 00-3 1.3z" opacity=".3"/>
+    <path fill="#e6e6e6" d="M18 250.4h-5.9a7 7 0 100 14.1h13.7a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4h-1.6a4.7 4.7 0 00-3 1.3z" opacity=".5"/>
+    <path fill="#d1d1d1" d="M18 250.4h3.1c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1h4.7a9.6 9.6 0 002.7-7c0-4.7-2.6-8.4-5.8-8.4h-1.5a4.7 4.7 0 00-3.2 1.2z" opacity=".9"/>
+    <path fill="#17ff8b" d="M18 250.4h3.1c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1h4.7a9.6 9.6 0 002.7-7c0-4.7-2.6-8.4-5.8-8.4h-1.5a4.7 4.7 0 00-3.2 1.2z" opacity=".7"/>
+    <path fill="#17ff8b" d="M18 250.4h3.1c2.8 0 5 3.1 5 7 0 4-2.2 7.1-5 7.1h3.1a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4a4.7 4.7 0 00-3 1.2z" opacity=".3"/>
+    <ellipse cx="21.1" cy="257.4" fill="#e6e6e6" opacity=".3" rx="5" ry="7.1"/>
+    <ellipse cx="21.1" cy="257.4" fill="#17ff8b" opacity=".3" rx="5" ry="7.1"/>
+    <path fill="#666" d="M13.8 261.1l.9 1.2h6.4v-1h-3v-2.8l-4.3-4zm-.2-8.5v1.2l.5-.5 4 3.8v-3.6h3v-.9z"/>
+    <path fill="#00e700" d="M18 250.4h-5.9a7 7 0 100 14.1h13.7a9.6 9.6 0 002.8-7c0-4.7-2.6-8.4-5.9-8.4h-1.6a4.7 4.7 0 00-3 1.3z"/>
+    <path fill="#fff" d="M8.8 254.1l-.2-1.4a5.8 5.8 0 00-2.3 3.5l1.1-.2a3.8 3.8 0 011.4-1.9zm16.2 9.7h1.5a8.5 8.5 0 001.3-2.4h-1.5a8.5 8.5 0 01-1.3 2.4zm.3-10.4l.3.9v.1a9.2 9.2 0 01.4 1.8 1.8 1.8 0 010 .3v1.4a9.6 9.6 0 01-.7 3.3H12.1a3.8 3.8 0 01-3.3-2l-1.5 1.2a5.7 5.7 0 004.9 2.8H24a6.5 6.5 0 01-.5.4l.7.3a9 9 0 002.5-6.5 10.2 10.2 0 00-1-4.5l-.5.5z" opacity=".5"/>
+  </g>
+  <path fill="#40b040" fill-opacity=".5" d="M478.4 234.7h10v9.5h-10zm0 15h10v9.5h-10zm0 15h10v9.5h-10zm75-30h10v9.5h-10zm0 15h10v9.5h-10zm0 15h10v9.5h-10zM613.4 234.6h10v9.5h-10zm0 15h10v9.5h-10zm0 15h10v9.5h-10z"/>
+  <path fill="#091309" d="M649.4 73.1h-10v-9.5h10z"/>
+  <path d="M653.4 127.1h-10v-9.5h10z"/>
+  <path fill="#40b040" fill-opacity=".5" d="M653.4 187.1h-10v-9.5h10zm0-15h-10v-9.5h10zm0-15h-10v-9.5h10zm0-15h-10v-9.5h10zM654.4 63.6h10v9.5h-10zM669.3 63.6h10v9.5h-10zM684.3 63.6h10v9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="7.5" d="M648.3 122.3l30.8-.1c12.4 0 15-7 15-25.6 0-18.8-.4-28.4-14.6-28.4h-35.2"/>
+  <path fill="none" stroke="#000" stroke-linecap="round" stroke-width="5" d="M648.3 122.3l30.8-.1c12.4 0 15-7 15-25.6 0-18.8-.2-28.2-14.4-28.3h-35.4"/>
+  <path fill="#40b040" fill-opacity=".5" d="M623.4 172.1h-10v-9.5h10zm0-15h-10v-9.5h10zm0-15h-10v-9.5h10zm0-15h-10v-9.5h10zm0 60h-10v-9.5h10zm0 42h-10v-9.5h10zm30 45h-10v-9.5h10zm0-15h-10v-9.5h10zm0-15h-10v-9.5h10zm0-15h-10v-9.5h10zm0 60h-10v-9.5h10z"/>
+  <g transform="translate(-15 -.1)">
+    <path fill="#8c8c8c" d="M666 210.2v16h-4.7v-16zm-30.5-30v16H631v-16zm30.4 0v16h-4.6v-16zm-30.4 30v16H631v-16z"/>
+    <path d="M631.6 186.4H666v34.5h-34.4z"/>
+    <path fill="#acacac" d="M667.4 219.3a3 3 0 01-3 3h-31.2a3 3 0 01-3.1-3V188a3 3 0 013-3h31.2a3 3 0 013.1 3z"/>
+    <circle cx="648.8" cy="203.7" r="10.9" fill="#3f3f3f"/>
+    <circle cx="648.8" cy="203.7" r="10.9" fill="url(#m)"/>
+    <circle cx="649" cy="204.9" r="9.6" opacity=".6"/>
+    <circle cx="648.8" cy="203.7" r="9.3"/>
+    <circle cx="637.9" cy="192.7" r="3.2"/>
+    <path fill="#fff" d="M637.4 192.6a.5.5 0 01.4-.4l-.4-2h-.3a2.5 2.5 0 00-1.6 1.6z" opacity=".5"/>
+    <circle cx="659.7" cy="192.8" r="3.2"/>
+    <path fill="#fff" d="M659.3 192.7a.5.5 0 01.3-.4l-.2-2a2 2 0 00-.5 0 2.5 2.5 0 00-1.4 1.5z" opacity=".5"/>
+    <circle cx="659.7" cy="214.7" r="3.2"/>
+    <path fill="#fff" d="M659.3 214.4a.5.5 0 01.3-.2l-.3-2h-.4a2.5 2.5 0 00-1.6 1.6z" opacity=".5"/>
+    <circle cx="637.8" cy="214.7" r="3.2"/>
+    <path fill="#fff" d="M637.3 214.4a.5.5 0 01.3-.2l-.2-2a2.2 2.2 0 00-.4 0 2.5 2.5 0 00-1.6 1.4z" opacity=".5"/>
+    <path fill="#fff" d="M652 195a9 9 0 00-2.2-.6 9.4 9.4 0 00-5.5 1.2l-.2.5a10.5 10.5 0 016.1-1.1 10.2 10.2 0 012 .4z" opacity=".6"/>
+  </g>
+  <path d="M283.4 279.6h10v9.5h-10zM613.4 279.6h10v9.5h-10z"/>
+  <path fill="none" stroke="#fff" stroke-linecap="round" stroke-opacity=".5" stroke-width="7.5" d="M618.3 285.5l-.2 90s2 21.6-23.2 21.5l-278.6.6c-27.8 0-27.2-22.3-27.2-22.3v-89.8"/>
+  <path fill="none" stroke="#000afc" stroke-linecap="round" stroke-width="5" d="M618.3 285.5l-.2 90s2 21.5-23.5 21.5c-27.8-.2-278.3.6-278.3.6-27.8 0-27.2-22.3-27.2-22.3v-89.8"/>
+  <path fill="#40b040" fill-opacity=".5" d="M699.3 63.6h10v9.5h-10z"/>
+</svg>
