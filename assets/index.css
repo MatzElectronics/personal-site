@@ -30,13 +30,13 @@ h6 {
 
 
 h5 {
-    font-size: 0.7rem;
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 h4 {
-    font-size: 1.5rem;
-    font-weight: 400;
+    font-size: 1.7rem;
+    font-weight: 500;
 }
 
 h3 {
@@ -109,10 +109,14 @@ section {
     padding: 2rem;
 }
 
-.column.text h3,
-.column.text h4,
-.column.text h5 {
+.column.text:not(.resume) h3,
+.column.text:not(.resume) h4,
+.column.text:not(.resume) h5 {
     padding-top: 2rem;
+}
+
+.column.text>p {
+    line-height: 1.5rem;
 }
 
 .column.text>img,
@@ -198,8 +202,8 @@ nav>ul>li {
 }
 
 img.card {
-    width: 8vw;
-    height: 8vw;
+    width: 8rem;
+    height: 8rem;
     box-shadow: 3px 3px 15px 5px rgb(0 0 0 / 20%);
 }
 
@@ -221,12 +225,12 @@ img.card {
     font-weight: 500;
 }
 
-.text>h4 {
+.text.resume>h4 {
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-.text>h5 {
+.text.resume>h5 {
     font-size: 1.1rem;
     font-weight: 400;
 }
