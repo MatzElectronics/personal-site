@@ -3,6 +3,18 @@
     border-collapse: collapse;
 }
 
+code *,
+pre * {
+    font-family: 'Source Code Pro', monospace;
+}
+code {
+    font-size: 80%;
+}
+.hljs-comment, .hljs-quote {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(76, 134, 134) !important; 
+}
+
 html {
     height: 100%;
     width: 100vw;
@@ -356,3 +368,9 @@ li[aria-roledescription="link"]:hover svg>path{
     fill: #000;
 }
 
+.legal {
+    padding: 0.5rem;
+    background: #eee;
+    font-size: 80%;
+    line-height: 1.2rem !important;
+}
