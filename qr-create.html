@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>QR Code Generator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="assets/qrcode.min.js"></script>
+        <style>
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-family: Lato;
+    font-size: 24px;
+    text-align: center;
+    max-width: 290px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 16px;
+}
+
+.qr-container {
+    height: 600px;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 30px;
+    background: url(assets/flag_vertical.png);
+    background-size: cover;
+}
+
+.qr-container > div {
+    padding: 15px;
+    background: white;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+
+        </style>
+    </head>
+    <body>
+
+
+        <script>
+
+            let linkBase = 'https://docs.google.com/forms/d/e/1FAIpQLScq-H1PpcnHu7CDKUXxUsLxGoYvVONmE73Qa5By9pvihsJvcQ/viewform?usp=pp_url&entry.1736335799=';
+
+            let businessList = [
+                '[y8a] Yeasty Beasty',
+                '[m3m] MaMere\'s Guest House',
+                '[u4t] Sundew Tattoo',
+                '[m2r] Main Street Ice Cream',
+                '[i3a] Independence Museum',
+                '[i1a] Indy Commons',
+                '[s3n] Sing Fay Restaurant',
+                '[o2o] Rookie\'s Sports Bar',
+                '[n4n] Independent Ice Cream',
+                '[e5h] The Collection (Vintage Antiques)',
+                '[h0f] The Thoughts & Gifts Project',
+                '[f4r] Firehouse Fitness',
+                '[c6k] Rick\'s coffee house',
+                '[e8l] New Leaf Tatoo',
+                '[e9a] Petals and Vines',
+                '[c5p] PCL',
+                '[m0k] Mungo\'s',
+                '[o3v] Oven Bird',
+                '[b0e] Brew',
+                '[l2n] Valkyrie Wine Tavern',
+                '[o3o] Monmouth Library',
+                '[o9o] Monmouth Senior Center',
+            ];
+
+            let vendorList = [
+                '[s1r] Ash Creek Arts',
+                '[n5d] Handzy Food',
+                '[d6n] Independence Museum',
+                '[t2r] Kat Hanson Wood burning',
+                '[m7e] TymeWarp Designs - Resin Artist',
+                '[a8i] Ashlie\'s Confections',
+                '[p4c] Paparazzi Jewelry',
+                '[n2a] Manic Habit',
+                '[m0a] Fem in Stem (WOU)',
+                '[e8d] Freedom Center (WOU)',
+                '[b7a] Abby\'s House (WOU)',
+                '[w7b] WOU Safe Zone',
+                '[o2e] Polk County Dems',
+                '[s8a] Spendlove Crafts',
+                '[a7s] Ashley Bermudez',
+                '[f1f] Fairys Fancy',
+                '[o9e] Oregon Health Insurance Marketplace',
+                '[o6c] One Love Cellars',
+            ];
+
+            let documentBody = document.querySelector('body');
+            let idx = 0;
+
+            function makeCard(business) {
+                let parentDiv = document.createElement('div');
+                parentDiv.classList.add('qr-container');
+                documentBody.append(parentDiv);
+
+                let businessTitle = document.createElement('h3');
+                businessTitle.id = 'title-h3-' + idx;
+                businessTitle.classList.add('business-title');
+                businessTitle.innerText = business.split('] ')[1];
+
+                parentDiv.append(businessTitle);
+
+                let qrDiv = document.createElement('div');
+                qrDiv.id = 'qr-div-' + idx;
+                qrDiv.classList.add('qr-code');
+
+                parentDiv.append(qrDiv);
+
+                let qrcode = new QRCode('qr-div-' + idx, {
+                    text: linkBase + encodeURIComponent( business ),
+                    width: 256,
+                    height: 256,
+                    colorDark : "#000000",
+                    colorLight : "#ffffff",
+                    correctLevel : QRCode.CorrectLevel.H
+                });
+
+                qrcode.makeCode(linkBase + encodeURIComponent( business ));
+
+                idx++;
+            }
+
+            businessList.forEach(makeCard);
+            vendorList.forEach(makeCard);
+
+        </script>
+    </body>
+</html>
