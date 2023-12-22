@@ -9,43 +9,73 @@
         <script src="assets/qrcode.min.js"></script>
         <style>
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+            @media print {
+                .pagebreak {
+                    clear: both;
+                    page-break-after: always;
+                }
+            }
 
-h3 {
-    font-family: Lato;
-    font-size: 24px;
-    text-align: center;
-    max-width: 290px;
-    width: 100%;
-    background: rgba(0,0,0,0.7);
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border-radius: 16px;
-}
+            body {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+            }
 
-.qr-container {
-    height: 600px;
-    border: 5px solid black;
-    margin: 20px;
-    padding: 50px;
-    border-radius: 30px;
-    background: url(assets/flag_vertical.png);
-    background-size: cover;
-}
+            h3 {
+                font-family: Lato;
+                font-size: 30px;
+                text-align: center;
+                max-width: 400px;
+                width: 100%;
+                background: rgba(0,0,0,0.8);
+                height: 110px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                border-radius: 16px;
+                margin-top: 0;
+            }
 
-.qr-container > div {
-    padding: 15px;
-    background: white;
-    border: 3px solid black;
-    border-radius: 20px;
-}
+            .invert {
+                background: rgba(255, 255, 255, 0.8);
+                color: #000;
+            }
+
+            .qr-container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 570px;
+                border: 5px solid black;
+                margin: 20px;
+                padding: 25px;
+                border-radius: 30px;
+                background: url(assets/flag_vertical.png);
+                background-size: cover;
+            }
+
+            .qr-code {
+                padding: 15px;
+                background: white;
+                border: 3px solid black;
+                border-radius: 20px;
+                /* width: 205px; */
+            }
+
+            .info-section {
+                height: 150px;
+                margin-top: 30px;
+                border-radius: 20px;
+                border: 3px solid black;
+            }
+
+            .check-in-here {
+                margin-top: -239px;
+                width: 400px;
+            }
 
 
         </style>
@@ -55,58 +85,89 @@ h3 {
 
         <script>
 
+            let signupLink = 'https://forms.gle/F1s7jbJYTXQGe2XQ8';
             let linkBase = 'https://docs.google.com/forms/d/e/1FAIpQLScq-H1PpcnHu7CDKUXxUsLxGoYvVONmE73Qa5By9pvihsJvcQ/viewform?usp=pp_url&entry.1736335799=';
 
             let businessList = [
-                '[y8a] Yeasty Beasty',
-                '[m3m] MaMere\'s Guest House',
-                '[u4t] Sundew Tattoo',
-                '[m2r] Main Street Ice Cream',
-                '[i3a] Independence Museum',
-                '[i1a] Indy Commons',
-                '[s3n] Sing Fay Restaurant',
-                '[o2o] Rookie\'s Sports Bar',
-                '[n4n] Independent Ice Cream',
-                '[e5h] The Collection (Vintage Antiques)',
-                '[h0f] The Thoughts & Gifts Project',
-                '[f4r] Firehouse Fitness',
-                '[c6k] Rick\'s coffee house',
-                '[e8l] New Leaf Tatoo',
-                '[e9a] Petals and Vines',
-                '[c5p] PCL',
-                '[m0k] Mungo\'s',
-                '[o3v] Oven Bird',
-                '[b0e] Brew',
-                '[l2n] Valkyrie Wine Tavern',
-                '[o3o] Monmouth Library',
-                '[o9o] Monmouth Senior Center',
+                /*
+                '[b5b] Brew Coffee & Taphouse',
+                '[n9m] Fine Pickens',
+                '[i3e] Firehouse Fitness',
+                '[n4d] Independence Heritage Museum',
+                '[i5a] Independence Music',
+                '[n9e] Indy Commons',
+                '[i8r] Main Street Ice Cream',
+                '[a4m] MaMere\'s Guest House',
+                '[n7i] Mink\'s Pad Thai',
+                '[n8m] Monmouth Library',
+                '[o8m] Monmouth Senior Center',
+                '[u7k] Mungo\'s',
+                '[n0n] New Leaf Tattoo',
+                '[o8e] Oven Bird',
+                '[p5c] PCL',
+                '[t6m] Petals and Vines',
+                '[r4e] Prisms Gallery',
+                '[t6o] PT Northwest',
+                '[r3c] Rick\'s coffee house',
+                '[o1o] Rookie\'s Sports Bar',
+                '[i4s] Sing Fay Restaurant',
+                '[u9t] Sundew Tattoo',
+                '[n9t] Tan Republic',
+                '[t3y] The Collection (Vintage Antiques)',
+                '[t0o] The Thoughts & Gifts Project',
+                '[l6s] Valkyrie Wine Tavern',
+                '[e7j] Yeasty Beasty',
+                */
+                '[t7a] Starbucks',
+                
             ];
 
             let vendorList = [
-                '[s1r] Ash Creek Arts',
-                '[n5d] Handzy Food',
-                '[d6n] Independence Museum',
-                '[t2r] Kat Hanson Wood burning',
-                '[m7e] TymeWarp Designs - Resin Artist',
-                '[a8i] Ashlie\'s Confections',
-                '[p4c] Paparazzi Jewelry',
-                '[n2a] Manic Habit',
-                '[m0a] Fem in Stem (WOU)',
-                '[e8d] Freedom Center (WOU)',
-                '[b7a] Abby\'s House (WOU)',
-                '[w7b] WOU Safe Zone',
-                '[o2e] Polk County Dems',
-                '[s8a] Spendlove Crafts',
-                '[a7s] Ashley Bermudez',
-                '[f1f] Fairys Fancy',
-                '[o9e] Oregon Health Insurance Marketplace',
-                '[o6c] One Love Cellars',
+                /*
+                '{h7r} Ash Creek Arts',
+                '{a9z} Handzy Food',
+                */
+                '{n4d} Independence Heritage Museum',
+                /*
+                '{t4a} Kat Hanson Wood Burning',
+                '{a7s} Ashlie\'s Confections',
+                '{a6g} Paparazzi Jewelry',
+                '{a0n} Manic Habit',
+                '{m5a} Fem in Stem (WOU)',
+                '{e8e} Freedom Center (WOU)',
+                '{b7a} Abby\'s House (WOU)',
+                '{u1o} WOU Safe Zone',
+                '{p2h} Polk County Dems',
+                '{p4p} Spendlove Crafts',
+                '{s4l} Ashley Bermudez',
+                '{a4f} Fairy\'s Fancy',
+                '{o5l} Oregon Health Insurance Marketplace',
+                '{n5x} Sunflower\'s Closet',
+                '{l4r} Glawog Ink',
+                '{c1s} Cassy Can Craft ',
+                '{y4e} Beyond Slim',
+                '{l8k} Flying High Again Flags',
+                '{i0a} Witchy Knits',
+                '{b2e} Bakerz Dozen',
+                '{b6i} PB Jewelry Cooperative',
+                '{a3e} SassiGlass',
+                '{a1e} Askew Collectibles',
+                '{l3a} Palomas Kitchen',
+                '{v9i} Vivid Creations PDX',
+                '{a0v} Navina Crafts',
+                '{s6i} Sapphic Dagger Co.',
+                '{o4g} LGBTQ2SIA+ Student Success Grant (WOU)',
+                '{h1o} Hopper Gallery',
+                '{i3m} Fair Housing Council of Oregon',
+                */
+                '{l3g} Cylver Linings',
+                '{s6n} Stinky Duck Arts',
             ];
 
             let documentBody = document.querySelector('body');
             let idx = 0;
 
-            function makeCard(business) {
+            function makeCard(business, invert) {
                 let parentDiv = document.createElement('div');
                 parentDiv.classList.add('qr-container');
                 documentBody.append(parentDiv);
@@ -114,7 +175,10 @@ h3 {
                 let businessTitle = document.createElement('h3');
                 businessTitle.id = 'title-h3-' + idx;
                 businessTitle.classList.add('business-title');
-                businessTitle.innerText = business.split('] ')[1];
+                if (invert === true) {
+                    businessTitle.classList.add('invert');
+                }
+                businessTitle.innerText = business.split(invert ? '} ' : '] ')[1];
 
                 parentDiv.append(businessTitle);
 
@@ -126,8 +190,8 @@ h3 {
 
                 let qrcode = new QRCode('qr-div-' + idx, {
                     text: linkBase + encodeURIComponent( business ),
-                    width: 256,
-                    height: 256,
+                    width: 205,
+                    height: 205,
                     colorDark : "#000000",
                     colorLight : "#ffffff",
                     correctLevel : QRCode.CorrectLevel.H
@@ -135,12 +199,28 @@ h3 {
 
                 qrcode.makeCode(linkBase + encodeURIComponent( business ));
 
-                idx++;
+                let checkInHereImg = document.createElement('img');
+                checkInHereImg.src = 'assets/check-in-here.png';
+                checkInHereImg.classList.add('check-in-here');
+
+                parentDiv.append(checkInHereImg);
+                
+                let signupImg = document.createElement('img');
+                signupImg.src = 'assets/event-info.png';
+                signupImg.classList.add('info-section');
+
+                parentDiv.append(signupImg);
+
+                let pageBreak = document.createElement('div');
+                pageBreak.classList.add('pagebreak');
+
+                documentBody.append(pageBreak);
+
+               idx++;
             }
 
-            businessList.forEach(makeCard);
-            vendorList.forEach(makeCard);
-
+            businessList.forEach((v) => {makeCard(v, false);});
+            //vendorList.forEach((v) => {makeCard(v, true);});
         </script>
     </body>
 </html>
